@@ -28,9 +28,15 @@ while True:
         count = count + 1
         print("Boton presionado " + str(count) + " veces.")
         arduino.write('A')
-        print(estado)
         time.sleep(.3) #DEBOUNCE
         estado = arduino.readline()
-        time.sleep(.32)
+        print(estado)
+        time.sleep(.02) #PERIODO DE ACCION DEL SERVO: 20 ms.
+    estado = arduino.readline()
+    strEstado = str(estado)
+    print(estado)
+    #NO FUNCIONA ESTE IF REVISAR
+    #if (strEstado == "FORZADO"):
+    #    print(estado)
     signal.signal(signal.SIGINT, signal_handler)
     time.sleep(.01)
