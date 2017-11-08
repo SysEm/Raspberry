@@ -11,7 +11,6 @@ arduino = serial.Serial('/dev/ttyACM0', 9600) #Objeto arduino linkeado al puerto
 count = 0
 estado = arduino.readline()
 
-
 ### FUNCIONES:
 def signal_handler(signal, frame):
     print('Ha Presionado Ctrl+C, saliendo')
@@ -24,6 +23,7 @@ print("Estado de la puerta: " + str(estado))
 
 while True:
     inputValue = GPIO.input(24)
+
     if (inputValue == True):
         count = count + 1
         print("Boton presionado " + str(count) + " veces.")
@@ -31,7 +31,8 @@ while True:
         time.sleep(.3) #DEBOUNCE
         estado = arduino.readline()
         print(estado)
-        time.sleep(.02) #PERIODO DE ACCION DEL SERVO: 20 ms.
+        #time.sleep(.02) #PERIODO DE ACCION DEL SERVO: 20 ms.
+
     estado = arduino.readline()
     strEstado = str(estado)
     print(estado)
