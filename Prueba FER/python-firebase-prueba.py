@@ -1,3 +1,6 @@
+# http://ozgur.github.io/python-firebase/
+# https://github.com/ozgur/python-firebase
+
 ##from firebase import firebase
 ###import firebase ##
 ##from time import sleep
@@ -24,12 +27,13 @@
 
 import datetime
 from time import sleep
-
+import json
+from firebase import jsonutil ##
 from firebase.firebase import FirebaseApplication, FirebaseAuthentication
 
 
 if __name__ == '__main__':
-    s = "C:\\Users\\ferbr_000\\AppData\\Local\\Temp\\-python-firebase-prueba.txt"
+    s = "C:\\-python-firebase-prueba.txt"
     print(s)
     with open(s, 'a') as f:
         f.write("\n")
@@ -46,29 +50,66 @@ if __name__ == '__main__':
     #firebase = FirebaseApplication(DSN, authentication)
     firebase = FirebaseApplication(DSN, None)
 
-    data = {'name': 'Ozgur Vatansever', 'age': 26,
+    data = {'name': 'Fernando Broqua', 'age': 28,
             'created_at': datetime.datetime.now()}
-
-    snapshot = firebase.post('/users', data)
+    snapshot = firebase.post('/users/posts', data)    #post con ID autogenerado
     print(snapshot['name'])
     with open(s, 'a') as f:
-        f.write("\t")
+        f.write("\tPOST:")
         f.write(snapshot['name'])
 
-    snapshot = firebase.get('/users', 'usr1',
+    # Obtener el último de la lista "puts", ordenado por clave alfabéticamente
+##    prms = {'print': 'pretty',
+##            'orderBy' : '"$key"',
+##            'limitToLast' : '1'}
+    # Obtener el último de la lista "puts", ordenado por clave secundaria: "age"
+    prms = {'print': 'pretty',
+            'orderBy' : '"age"',
+            'limitToLast' : '1'}
+    print(json.dumps(prms))
+    snapshot = firebase.get('/users/puts', None,
+                            params=prms,
+                            headers={'X_FANCY_HEADER': 'very fancy'})
+    print(json.dumps(snapshot))
+    with open(s, 'a') as f:
+        f.write("\tGET:")
+        #f.write(snapshot['name'])
+        f.write(json.dumps(snapshot, cls=jsonutil.JSONEncoder))
+
+    for key,value in snapshot.items():
+    	print(key, ' ', json.dumps(value))
+    	snapshot = value
+    edad = snapshot['age'] + 1 
+    nuevoid = "usr"+str(edad)
+    snapshot['name'] = "Usuario "+str(edad)
+    snapshot['age'] = edad
+    snapshot = firebase.put('/users/puts', nuevoid, snapshot)    #put con ID Personalizado
+    print(snapshot['name'])
+    with open(s, 'a') as f:
+        f.write("\tPUT:")
+        f.write(json.dumps(snapshot, cls=jsonutil.JSONEncoder))
+
+    # Obtener /users/puts/usr1
+    updateid = 'usr1'
+    snapshot = firebase.get('/users/puts/', updateid,
                             params={'print': 'pretty'},
                             headers={'X_FANCY_HEADER': 'very fancy'})
+    snapshot['age'] = edad
+    print(snapshot['age']) #cambia edad
+    snapshot = firebase.put('/users/puts', updateid, snapshot)    #actualiza/graba usr1
     with open(s, 'a') as f:
-        f.write("\t")
-        f.write(snapshot['name'])
+        f.write("\tGET:")
+        #f.write(snapshot['name'])
+        f.write(json.dumps(snapshot, cls=jsonutil.JSONEncoder))
+
 
 
     def callback_get(response):
 #        with open('/dev/null', 'w') as f:
-        s = "C:\\Users\\ferbr_000\\AppData\\Local\\Temp\\-python-firebase-prueba.txt"
+##        s = "C:\\Users\\ferbr_000\\AppData\\Local\\Temp\\-python-firebase-prueba.txt"
         with open(s, 'a') as f:
-            f.write("\t")
+            f.write("\tGET_ASYNC:")
             f.write("VOLVIO")
     firebase.get_async('/users', 'usr1', callback=callback_get)
 
-sleep(50)
+##sleep(5)
