@@ -22,7 +22,38 @@ def signal_handler(signal, frame): # Captura de Teclado
 def playDingDong(): #Reproduce audio "ding-dong.mp3" en el mismo path
 	os.system('mpg321 -q ding-dong.mp3 &')
 
+LUZ_BLANCA = 0
+LUZ_ROJA = 1
+LUZ_VERDE = 2
+LUZ_AMARILLA = 3
+dtLuz = []
+dtEstadoLuz = []
 
+def pinIdLuz(idluz):
+	if idluz == LUZ_BLANCA: return GPIO_LED_BLANCO
+	elif idluz == LUZ_ROJA: return GPIO_LED_ROJO
+	elif idluz == LUZ_VERDE: return GPIO_LED_VERDE
+	elif idluz == LUZ_AMARILLA: return GPIO_LED_AMARILLO
+
+def encenderLuz(idluz,tiempo):
+	global ya
+	if dtEstadoLuz[idluz] == False:
+		dtEstadoLuz[idluz] = True
+		GPIO.output(pinIdLuz(idluz),True)
+	dtLuz[idluz] = ya + tiempo
+	
+def apagarLuz(idluz):
+	dtEstadoLuz[idluz] = False
+	GPIO.output(pinIdLuz(idluz),False)
+
+def mantenerLuz(idluz,tiempo):
+	global ya
+	if dtEstadoLuz[idluz] == True and ya > dtLuz[idluz]:
+		dtEstadoLuz[idluz] = False
+		GPIO.output(pinIdLuz(idluz),False)
+		
+	
+	
 ########### VARIABLES GLOBALES ############
 #listas, contiene el password por default de golpes inicial y el que ingreses al intentar abrir la puerta
 password = []
@@ -30,8 +61,8 @@ ingresado = []
 veces = 0
 count = 0
 # Estados y Deadlines: Usados para corte de control
-deadLine = time.time()
-dl
+dlSegmentoGolpe = time.time()
+
 
 ###########  CONFIGURACIONES   ############
 #Mensajes salientes
@@ -41,6 +72,7 @@ GPIO_LED_ROJO = 4
 GPIO_LED_VERDE = 5
 GPIO_MICROFONO = 17
 GPIO_LED_BLANCO = 18
+GPIO_LED_AMARILLO = 18
 GPIO_LED_PRESENCIA = GPIO_LED_BLANCO
 GPIO_INFRARROJO = 23
 GPIO_SERVO = 24
@@ -73,13 +105,13 @@ try:
 	veces = 0
     while veces < cantidadGolpes:
         valor = 0
-        deadLine = time.time() + tiempoEscucha
+        dlSegmentoGolpe = time.time() + tiempoEscucha
         
         #se prende el led indicando que espera un golpe
         GPIO.output(GPIO_LED_ROJO,True)
     
 		#bucle de escucha de un golpe.. en el tiempo indicado que dura un golpe
-        while time.time() < deadLine :
+        while time.time() < dlSegmentoGolpe :
             if GPIO.input(GPIO_MICROFONO):
                 #prende el led verde indicando que se esucho un golpe
                 GPIO.output(GPIO_LED_VERDE,True)
@@ -119,6 +151,30 @@ try:
 	######### COMIENZA BUCLE INFINITO ##########
 	while True:	
 		ya = time.time()
+		
+		# DEFINIR CAMBIOS DE ESTADO DE PUERTA POR DEADLINE
+		senInfra = GPIO.input(GPIO_INFRARROJO) #LEO EL SENSOR INFRARROJO PARA SABER SI DETECTO ALGO O NO, DEVUELVE 0 SI DETECTO ALGO
+		senServo = GPIO.input(GPIO_SERVO)
+		if estPuerta > 11:
+			encenderLuz(LUZ_BLANCA, dlLedPuertaAbierta)
+			if ya > tLeerBBDD + dlLeerBBDD:	#Lee archivo cada dlLeerBBDD TIEMPO
+				leerBBDD()
+			if senInfra == 0:
+				tiePuerta12 = ya
+				estPuerta = 12 #abierta con presencia
+			elif ya < (tiePuerta12 + dlPuertaAbierta):
+				estPuerta = 13 #abierta sin presencia
+			elif ya < (tiePuerta12 + dlPuertaAbierta + dlPuertaMovimiento):
+				estPuerta = 14 #cerrando
+			else:
+				estPuerta = 1 #cerrada y bloqueada
+		elif estPuerta < 11:
+			if estPuerta == 2 and(ya > tiePuerta2 + dlDesbloqueo): #desbloqueando Y tiempo de debloqueo excedido
+				estPuerta = 1
+			elif estPuerta == 3 and (ya > tiePuerta3 + dlCerrDesbloq): #desbloqueado y tiempo de CerradoDesbloqueado excedido
+				estPuerta = 1
+		
+		
 		######## Sensado de PRESENCIA #######
 '''
     if (salidaLed.val() == "True"):
@@ -126,63 +182,72 @@ try:
     elif (salidaLed.val() == "False"):
         print("Estado actual: False")
 '''
-		senInfra = GPIO.input(GPIO_INFRARROJO) #LEO EL SENSOR INFRARROJO PARA SABER SI DETECTO ALGO O NO, DEVUELVE 0 SI DETECTO ALGO
-		if sensor==0:
-			fn.log.debbug("Se comenzo a detectar algo")
-			#fn.log.debbug("Se detecto algo")
-			GPIO.output(GPIO_LED_PRESENCIA, True) # PRENDO EL LED
-			fn.log.debbug("Detect: ON - LED EN BDD EN FIREBASE: ON ")
-			if (salidaLed.val() == "False"):
-				 firebase_(puerta,salidaLed.val()) # LLAMO A UNA FUNCION PARA MODIFICAR EL CAMPO ESTADO EN FIREBASE
-		elif sensor==1:
-			fn.log.debbug("No se detecta nada")
-			GPIO.output(GPIO_LED_PRESENCIA, False)
-			fn.log.debbug("Detect: OFF - LED EN BDD EN FIREBASE: OFF ")
-			if (salidaLed.val() == "True"):
-				firebase_(puerta,salidaLed.val()) # LLAMO A UNA FUNCION PARA MODIFICAR EL CAMPO ESTADO EN FIREBASE
+		if senInfra == 0:
+			if estInfra == 0:
+				fn.log.debbug("Se comenzo a detectar algo")
+				estInfra = 1
+				tieInfra1 = ya
+			elif estInfra == 1 and (ya > tieInfra1 + dlPresencia): # HAY ALGO
+				estInfra = 2
+				fn.log.debbug("Hay algo")
+				encenderLuz(LUZ_BLANCA, dlLedPresencia)
+			
+				#NOTIFICAR PRESENCIA
+				#fn.log.debbug("Detect: ON - LED EN BDD EN FIREBASE: ON ")
+				#if (salidaLed.val() == "False"):
+				#	firebase_(puerta,salidaLed.val()) # LLAMO A UNA FUNCION PARA MODIFICAR EL CAMPO ESTADO EN FIREBASE
+		elif senInfra == 1:
+			if estInfra == 1:
+				estInfra == 0 #Falsa Presencia
+				fn.log.debbug("Falsa presencia")
+			elif estInfra == 2:
+#NOTIFICAR NO PRESENCIA
+				fn.log.debbug("Detectada No presencia")
+				#if (salidaLed.val() == "True"):
+				#	firebase_(puerta,salidaLed.val()) # LLAMO A UNA FUNCION PARA MODIFICAR EL CAMPO ESTADO EN FIREBASE
 
 		######## Sensado de GOLPES #######
-		senMicro = GPIO.input(GPIO_MICROFONO)
-		if ya < deadLine:	#sensando si hay GOLPE/NO-GOLPE en 1 Vez
-			if senMicro:
-				GPIO.output(GPIO_LED_VERDE,True)
-				valor = 1
+		if estPuerta in [1,2] and estInfra > 0: #Puerta cerrada Y Presencia Detectada
+			if ya < dlSegmentoGolpe:	#sensando si hay GOLPE/NO-GOLPE en 1 Vez
+				if valor == 0:
+					senMicro = GPIO.input(GPIO_MICROFONO)
+				if senMicro:
+					encenderLuz(LUZ_VERDE,0.2)
+					valor = 1
 			else:
-				GPIO.output(GPIO_LED_VERDE,False)
-		else: #sensado completo de 1 Vez
-			if veces > cantidadGolpes:
-				veces = 0 # reinicia la cuenta de Veces
-			deadLine = time.time() + tiempoEscucha
-		if veces < cantidadGolpes:
-			valor = 0
-			deadLine = time.time() + tiempoEscucha
-			GPIO.output(GPIO_LED_ROJO,True)
-
-			while time.time() < deadLine :
-					
-			veces = veces + 1
-			GPIO.output(GPIO_LED_ROJO,False)
-			time.sleep(1)
-			fn.log.debug(valor,",")
-			ingresado.append(valor)
-			
-		if veces == cantidadGolpes:
-			#una vez que tiene los golpes ingresados para abrir la puerta, la compara con el pass seteado al principio    
-			coincide = 1
-			#si no coinciden , cambia la marca de coinciden a 0 y advierte de secuencia incorrecta con el led rojo, de lo contrario con el verde
-			for i in range(cantidadGolpes - 1):
-				if (password[i] != ingresado[i]):
-					coincide = 0
-					break
-				else:
-					fn.log.debug("el elemento ",i," coinciden")
-			
-			if(coincide == 0):
+				if veces > cantidadGolpes:
+					veces = 0 # reinicia la cuenta de Veces
+				dlSegmentoGolpe = time.time() + tiempoEscucha
+			if veces < cantidadGolpes:
+				valor = 0
+				dlSegmentoGolpe = time.time() + tiempoEscucha
 				GPIO.output(GPIO_LED_ROJO,True)
-				fn.log.error("Secuencia incorrecta!!! alerta policia")
-			else:
-				GPIO.output(GPIO_LED_VERDE,True)
-				fn.log.info("Puerta abierta, por favor, ingrese")
+
+				while time.time() < dlSegmentoGolpe :
+						
+				veces = veces + 1
+				GPIO.output(GPIO_LED_ROJO,False)
+				time.sleep(1)
+				fn.log.debug(valor,",")
+				ingresado.append(valor)
+				
+			if veces == cantidadGolpes:
+				#una vez que tiene los golpes ingresados para abrir la puerta, la compara con el pass seteado al principio    
+				coincide = 1
+				#si no coinciden , cambia la marca de coinciden a 0 y advierte de secuencia incorrecta con el led rojo, de lo contrario con el verde
+				for i in range(cantidadGolpes - 1):
+					if (password[i] != ingresado[i]):
+						coincide = 0
+						break
+					else:
+						fn.log.debug("el elemento ",i," coinciden")
+				
+				if(coincide == 0):
+					GPIO.output(GPIO_LED_ROJO,True)
+					fn.log.error("Secuencia incorrecta!!! alerta policia")
+				else:
+					GPIO.output(GPIO_LED_VERDE,True)
+					fn.log.info("Puerta abierta, por favor, ingrese")
 	
 		####### Sensado de SERVO #######
 		senServo = GPIO.input(GPIO_SERVO)
