@@ -31,7 +31,7 @@ while True:
         time.sleep(.3) #DEBOUNCE
         estado = arduino.readline()
         print(estado)
-        #time.sleep(.02) #PERIODO DE ACCION DEL SERVO: 20 ms.
+        time.sleep(.02) #PERIODO DE ACCION DEL SERVO: 20 ms.
 
     estado = arduino.readline()
     strEstado = str(estado)
