@@ -26,8 +26,8 @@ LUZ_BLANCA = 0
 LUZ_ROJA = 1
 LUZ_VERDE = 2
 LUZ_AMARILLA = 3
-dtLuz = []
-dtEstadoLuz = []
+dlLuz = []
+dlEstadoLuz = []
 
 def pinIdLuz(idluz):
 	if idluz == LUZ_BLANCA: return GPIO_LED_BLANCO
@@ -37,19 +37,19 @@ def pinIdLuz(idluz):
 
 def encenderLuz(idluz,tiempo):
 	global ya
-	if dtEstadoLuz[idluz] == False:
-		dtEstadoLuz[idluz] = True
+	if dlEstadoLuz[idluz] == False:
+		dlEstadoLuz[idluz] = True
 		GPIO.output(pinIdLuz(idluz),True)
-	dtLuz[idluz] = ya + tiempo
+	dlLuz[idluz] = ya + tiempo
 	
 def apagarLuz(idluz):
-	dtEstadoLuz[idluz] = False
+	dlEstadoLuz[idluz] = False
 	GPIO.output(pinIdLuz(idluz),False)
 
 def mantenerLuz(idluz,tiempo):
 	global ya
-	if dtEstadoLuz[idluz] == True and ya > dtLuz[idluz]:
-		dtEstadoLuz[idluz] = False
+	if dlEstadoLuz[idluz] == True and ya > dlLuz[idluz]:
+		dlEstadoLuz[idluz] = False
 		GPIO.output(pinIdLuz(idluz),False)
 		
 	
@@ -58,7 +58,7 @@ def mantenerLuz(idluz,tiempo):
 #listas, contiene el password por default de golpes inicial y el que ingreses al intentar abrir la puerta
 password = []
 ingresado = []
-veces = 0
+cantSegm = 0
 count = 0
 # Estados y Deadlines: Usados para corte de control
 dlSegmentoGolpe = time.time()
@@ -102,9 +102,9 @@ try:
 	if mout>0: time.sleep(2)
 
 	## GENERACION DE CÓDIGO DE GOLPES ##
-	veces = 0
-    while veces < cantidadGolpes:
-        valor = 0
+	cantSegm = 0
+    while cantSegm < cantidadGolpes:
+        senMicroSegm = 0
         dlSegmentoGolpe = time.time() + tiempoEscucha
         
         #se prende el led indicando que espera un golpe
@@ -115,16 +115,16 @@ try:
             if GPIO.input(GPIO_MICROFONO):
                 #prende el led verde indicando que se esucho un golpe
                 GPIO.output(GPIO_LED_VERDE,True)
-                valor = 1
+                senMicroSegm = 1
             else:
                 GPIO.output(GPIO_LED_VERDE,False)
-        veces = veces + 1
+        cantSegm = cantSegm + 1
         
         #se termina de escuchar un golpe, y se guarda el resultado en la lista
         GPIO.output(GPIO_LED_ROJO,False)
         time.sleep(1)
-        fn.log.debug(valor,",")
-        password.append(valor)
+        fn.log.debug(senMicroSegm,",")
+        password.append(senMicroSegm)
 	
     # PRENDE AMBAS LUCES : indica que se va pedir que ingreses el pass para abrir o no la puerta
     GPIO.output(GPIO_LED_ROJO,True)
@@ -174,6 +174,11 @@ try:
 			elif estPuerta == 3 and (ya > tiePuerta3 + dlCerrDesbloq): #desbloqueado y tiempo de CerradoDesbloqueado excedido
 				estPuerta = 1
 		
+		## Encendido de Leds
+		mantenerLuz(LUZ_BLANCA)
+		mantenerLuz(LUZ_ROJA)
+		mantenerLuz(LUZ_VERDE)
+		mantenerLuz(LUZ_AMARILLA)
 		
 		######## Sensado de PRESENCIA #######
 '''
@@ -209,29 +214,22 @@ try:
 		######## Sensado de GOLPES #######
 		if estPuerta in [1,2] and estInfra > 0: #Puerta cerrada Y Presencia Detectada
 			if ya < dlSegmentoGolpe:	#sensando si hay GOLPE/NO-GOLPE en 1 Vez
-				if valor == 0:
+				if senMicroSegm == 0:
 					senMicro = GPIO.input(GPIO_MICROFONO)
 				if senMicro:
 					encenderLuz(LUZ_VERDE,0.2)
-					valor = 1
-			else:
-				if veces > cantidadGolpes:
-					veces = 0 # reinicia la cuenta de Veces
-				dlSegmentoGolpe = time.time() + tiempoEscucha
-			if veces < cantidadGolpes:
-				valor = 0
-				dlSegmentoGolpe = time.time() + tiempoEscucha
-				GPIO.output(GPIO_LED_ROJO,True)
-
-				while time.time() < dlSegmentoGolpe :
-						
-				veces = veces + 1
-				GPIO.output(GPIO_LED_ROJO,False)
-				time.sleep(1)
-				fn.log.debug(valor,",")
-				ingresado.append(valor)
+					senMicroSegm = 1
+					golpes += 1
+					estPuerta = 2 # Puerta cerrada Desbloqueando
+			elif estPuerta == 2:
+				cantSegm += 1
+				ingresado.append(senMicroSegm)
+				# Prepara proximo segmento
+				dlSegmentoGolpe = ya + tiempoEscucha
+				senMicroSegm = 0
+				fn.log.debug(senMicroSegm,",")
 				
-			if veces == cantidadGolpes:
+			if cantSegm == cantidadGolpes:
 				#una vez que tiene los golpes ingresados para abrir la puerta, la compara con el pass seteado al principio    
 				coincide = 1
 				#si no coinciden , cambia la marca de coinciden a 0 y advierte de secuencia incorrecta con el led rojo, de lo contrario con el verde
@@ -244,10 +242,13 @@ try:
 				
 				if(coincide == 0):
 					GPIO.output(GPIO_LED_ROJO,True)
-					fn.log.error("Secuencia incorrecta!!! alerta policia")
+					encenderLuz(LUZ_ROJA,dlLedPassMal)
+					fn.log.warning("Secuencia incorrecta!!! alerta policia")
 				else:
-					GPIO.output(GPIO_LED_VERDE,True)
-					fn.log.info("Puerta abierta, por favor, ingrese")
+					estPuerta = 3 #Puerta cerrada NO Bloqueada
+					encenderLuz(LUZ_VERDE,dlLedPassOk)
+					fn.log.info("Puerta desbloqueada, por favor, ingrese")
+				cantSegm = 0
 	
 		####### Sensado de SERVO #######
 		senServo = GPIO.input(GPIO_SERVO)
