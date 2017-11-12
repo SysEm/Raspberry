@@ -1,10 +1,17 @@
 import datetime
 from time import sleep
 
-import json
-from firebase import jsonutil
+
+#import json
+#from firebase import jsonutil
 from firebase.firebase import FirebaseApplication, FirebaseAuthentication
-import os
+import pyrebase
+
+import puertasfunciones as fn
+
+
+#libreria Pyrebase= https://github.com/ozgur/python-firebase
+#libreria Python-Firebase= https://soatp-2dfc9.firebaseio.com/baseDatosSoa/puertas/Puerta 
 
 
 ###########     FUNCIONES      ############
@@ -14,79 +21,95 @@ def signal_handler(signal, frame): # Captura de Teclado
 	GPIO.cleanup()
 	sys.exit(0)
 
-base_dir = os.path.dirname(os.path.abspath(__file__)) #<-- absolute dir del script
-def abs_path(rel_path):
-    return os.path.join(base_dir, rel_path)
+#Recupera/consulta puerta en Firebase
+def obtenerPuerta(idpuerta):
+	return firebase.get('/baseDatosSoa', idpuerta,
+				params={'print': 'pretty'},
+				headers={'X_FANCY_HEADER': 'very fancy'})
 
-# Lee en forma segura un archivo (comprueba si no existe el archivo)
-# return: objeto 'dict' con el json del archivo, None en otro caso
-def leer(path):
-    if os.path.exists(path):
-        arch=open(path,"r+")
-        arch=arch.read()
-        if arch!="":
-            return json.loads(arch)
-    return None
+#Actualiza/graba puerta en Firebase
+def impactarPuerta(idpuerta,dato):
+	return firebase.put('/baseDatosSoa', idpuerta, dato)
 
-# Guarda un objeto serializable en un archivo (crea si no existe, pisa contenido)
-# return: string de objeto serializado guardado en archivo, None en otro caso
-def escribir(path,json_obj):
-    try:
-        jobj=json.dumps(json_obj, cls=jsonutil.JSONEncoder)
-    except TypeError:
-        jobj=None
-    if jobj!="" and jobj!=None:
-        with open(path,"w+") as arch:
-            arch.write(jobj)
-    return jobj
+########### VARIABLES GLOBALES ############
 
-# CONFIGURACION #
+
+###########  CONFIGURACIONES   ############
+# Info Base de Datos Firebase
 puertaDesdeRaspi="PuertaLecAppEscRas"
 puertaHaciaRaspi="PuertaEscAppLecRas"
 DSN = 'https://soatp-2dfc9.firebaseio.com'
+archDesdeRaspi=fn.abs_path(puertaDesdeRaspi+".json")
+archHaciaRaspi=fn.abs_path(puertaHaciaRaspi+".json")
+firebase = FirebaseApplication(DSN, None)
+
+'''
+def firebase_(puerta_, estado_): 
+    if (estado_ == "False"):
+        db.child("baseDatosSoa/puertas/"+puerta_+"/led").update({"estado": ("True" if estado_=="False" else "True")})
+    elif (estado_ == "True"):
+        db.child("baseDatosSoa/puertas/"+puerta_+"/led").update({"estado": ("False" if estado_=="True" else "False")}) 
+
+config = {
+  "apiKey": "AIzaSyDHvAOR5d1hd1gEEHBS3Ep2LxybRvUu_OA",
+  "authDomain": "soatp-2dfc9.firebaseapp.com",
+  "databaseURL": "https://soatp-2dfc9.firebaseio.com",
+  "storageBucket": "soatp-2dfc9.appspot.com"
+}
+
+firebase = pyrebase.initialize_app(config)
+db = firebase.database()
+'''
 
 ##objeto=None
 ##objeto=json.loads('{"name" : "fernando", "age":28}')
 
-archDesdeRaspi=abs_path(puertaDesdeRaspi+".json")
-archHaciaRaspi=abs_path(puertaHaciaRaspi+".json")
-firebase = FirebaseApplication(DSN, None)
 
-while True:
-    print(datetime.datetime.now())
+try:
+	while True:
+		fn.log.debug(datetime.datetime.now())
 
-    intentos=0
-    while intentos<10:
-        intentos+=1
-        #objeto["age"]=intentos
+		intentos=0
+		while intentos<10:
+			intentos+=1
+			#objeto["age"]=intentos
 
-        # Grabar en archivo puertaHaciaRaspi: PuertaLecAppEscRas #
-        puerta = firebase.get('/baseDatosSoa', puertaHaciaRaspi,
-                              params={'print': 'pretty'},
-                              headers={'X_FANCY_HEADER': 'very fancy'})
-        if puerta!=None:
-            print("puerta app: ",puerta["Presencia"]["estado"])
-            #print("puerta app:\n",json.dumps(puerta, cls=jsonutil.JSONEncoder))
-            puerta=escribir(archHaciaRaspi,puerta)
-            if puerta!=None:
-                print("Grabado en archivo: archHaciaRaspi")
-                #print("Grabado en archivo:",archHaciaRaspi," Puerta:",puerta)
-            else:
-                print("Archivo no Grabado: archHaciaRaspi")
-                #print("Archivo no Grabado:",archHaciaRaspi," Puerta:",puerta)
-        else:
-            print("no vino puerta app")
+			# Grabar en archivo puertaHaciaRaspi: PuertaLecAppEscRas #
+			puerta = obtenerPuerta(puertaHaciaRaspi)
+			if puerta!=None:
+				fn.log.debug("puerta app: "+puerta["Presencia"]["estado"])
+				#fn.log.debug("puerta app:\n",json.dumps(puerta, cls=jsonutil.JSONEncoder))
+				puerta=fn.escribir(archHaciaRaspi,puerta)
+				if puerta!=None:
+					fn.log.debug("Grabado en archivo: archHaciaRaspi")
+					#fn.log.debug("Grabado en archivo:",archHaciaRaspi," Puerta:",puerta)
+				else:
+					fn.log.debug("Archivo no Grabado: archHaciaRaspi")
+					#fn.log.warning("Archivo no Grabado:",archHaciaRaspi," Puerta:",puerta)
+			else:
+				fn.log.warning("no vino puerta app")
 
-        # Leer de archivo puertaDesdeRaspi: PuertaEscAppLecRas #
-        puerta=leer(archDesdeRaspi)
-        if puerta!=None and puerta!="":
-            print("Leido en Archivo: archDesdeRaspi")
-            #print("Leido en Archivo:",archDesdeRaspi,json.dumps(puerta, cls=jsonutil.JSONEncoder))
-            puerta = firebase.put('/baseDatosSoa', puertaDesdeRaspi, puerta)    #actualiza/graba puerta
-            if puerta==None:
-                print("no va puerta Raspi")
-        else:
-            print("Archivo no Leido: archDesdeRaspi")
-#       sleep(5)
-        
-        print(datetime.datetime.now())
+			# Leer de archivo puertaDesdeRaspi: PuertaEscAppLecRas #
+			puerta=fn.leer(archDesdeRaspi)
+			if puerta!=None and puerta!="":
+				fn.log.debug("Leido en Archivo: archDesdeRaspi")
+				#fn.log.debug("Leido en Archivo:",archDesdeRaspi,json.dumps(puerta, cls=jsonutil.JSONEncoder))
+				puerta = impactarPuerta(puertaDesdeRaspi, puerta)    #actualiza/graba puerta
+				if puerta==None:
+					fn.log.warning("No va puerta Raspi")
+			else:
+				fn.log.warning("Archivo no Leido: archDesdeRaspi")
+	#       sleep(5)
+			
+			fn.log.debug(datetime.datetime.now())
+except (KeyboardInterrupt, SystemExit):
+	fn.log.warning('Programa detenido')
+	fn.log.info('Ha Presionado Ctrl+C, saliendo')
+except:
+	fn.log.error('Error')
+	# otro error
+else:
+	fn.log.debug('Sin error')
+	# sin error
+finally:
+	fn.log.info('...............')
