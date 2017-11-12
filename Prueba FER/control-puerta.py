@@ -6,7 +6,58 @@ import sys
 #import os
 
 import puertasfunciones as fn
+###########  CONFIGURACIONES   ############
+#Mensajes salientes
+mout=0
+#Patas GPIO usadas
+GPIO_LED_ROJO = 4
+GPIO_LED_VERDE = 5
+GPIO_MICROFONO = 17
+GPIO_LED_BLANCO = 18
+GPIO_LED_AMARILLO = 18
+GPIO_LED_PRESENCIA = GPIO_LED_BLANCO
+GPIO_INFRARROJO = 23
+GPIO_PULSADOR = 24
 
+cantidadGolpes = 5 #seteo de numeros de golpes que se ingresaran como password
+	
+########### VARIABLES GLOBALES ############
+#listas, contiene el password por default de golpes inicial y el que ingreses al intentar abrir la puerta
+password = []
+ingresado = []
+cantSegm = 0
+count = 0
+# Archivos comunicacion a BBDD
+puertaDesdeRaspi="PuertaLecAppEscRas"
+puertaHaciaRaspi="PuertaEscAppLecRas"
+archDesdeRaspi=fn.abs_path(puertaDesdeRaspi+".json")
+archHaciaRaspi=fn.abs_path(puertaHaciaRaspi+".json")
+
+
+
+P_LED_EST_ON = "on"
+P_LED_EST_OFF = "off"
+P_PRES_EST_ON = "on"
+P_PRES_EST_OFF = "off"
+P_SERV_ANG_ABIERTO = 1
+P_SERV_ANG_CERRADO = 0
+P_SERV_ESFUERZO_SI = 1
+P_SERV_ESFUERZO_NO = 0
+PuertaRaspi = {"Led": {"estado": P_LED_EST_OFF}, "Presencia": {"estado": P_PRES_EST_OFF}, "Servo": {"angulo": P_SERV_ANG_CERRADO, "esfuerzo": P_SERV_ESFUERZO_NO}}
+
+
+LUZ_BLANCA = 0
+LUZ_ROJA = 1
+LUZ_VERDE = 2
+LUZ_AMARILLA = 3
+dlLuz = []
+dlEstadoLuz = []
+dlLedPuertaAbierta = 5
+dlLedPresencia = 2
+dlLedGolpeSensado = 0.2
+dlLedPassMal = 2
+dlLedPassOk = 1
+dlLuzPulsadorError = 0.5
 ###########     FUNCIONES      ############
 def signal_handler(signal, frame): # Captura de Teclado
 	global arduino
@@ -15,19 +66,8 @@ def signal_handler(signal, frame): # Captura de Teclado
 	GPIO.cleanup()
 	sys.exit(0)
 
-# def imprimir(msj)
-	# if mout==0: logger(msj)
-	# elif mout==1: write(
-
 def playDingDong(): #Reproduce audio "ding-dong.mp3" en el mismo path
 	os.system('mpg321 -q ding-dong.mp3 &')
-
-LUZ_BLANCA = 0
-LUZ_ROJA = 1
-LUZ_VERDE = 2
-LUZ_AMARILLA = 3
-dlLuz = []
-dlEstadoLuz = []
 
 def pinIdLuz(idluz):
 	if idluz == LUZ_BLANCA: return GPIO_LED_BLANCO
@@ -52,35 +92,52 @@ def mantenerLuz(idluz,tiempo):
 		dlEstadoLuz[idluz] = False
 		GPIO.output(pinIdLuz(idluz),False)
 		
+def impactarCambiosPuerta(obligado,luz,presencia,puerta,forzado):
+	global PuertaRaspi
+	fbLuz = (P_LED_EST_ON if luz else P_LED_EST_OFF)
+	fbPresencia = (P_PRES_EST_ON if presencia else P_PRES_EST_OFF)
+	fbPuerta = (P_SERV_ANG_ABIERTO if puerta else P_SERV_ANG_CERRADO)
+	fbForzado = (P_SERV_ESFUERZO_SI if forzado else P_SERV_ESFUERZO_NO)
 	
+	if not(fbLuz == PuertaRaspi["Led"]["estado"] and 
+			fbPresencia == PuertaRaspi["Presencia"]["estado"] and
+			fbPuerta == PuertaRaspi["Servo"]["angulo"] and
+			fbForzado == PuertaRaspi["Servo"]["esfuerzo"]):
+		PuertaRaspi["Led"]["estado"] = fbLuz
+		PuertaRaspi["Presencia"]["estado"] = fbPresencia
+		PuertaRaspi["Servo"]["angulo"] = fbPuerta
+		PuertaRaspi["Servo"]["esfuerzo"] = fbForzado
+		
+		fn.escribir(archDesdeRaspi, PuertaRaspi)
+	elif obligado:
+		fn.escribir(archDesdeRaspi, PuertaRaspi)
+			
+def leerPuertaBBDD():
+	global PuertaBBDD
+	PuertaBBDD = fn.leer(archHaciaRaspi)
+	# fbLuz = (P_LED_EST_ON if luz else P_LED_EST_OFF)
+	# fbPresencia = (P_PRES_EST_ON if presencia else P_PRES_EST_OFF)
+	# fbPuerta = (P_SERV_ANG_ABIERTO if puerta else P_SERV_ANG_CERRADO)
+	# fbForzado = (P_SERV_ESFUERZO_SI if forzado else P_SERV_ESFUERZO_NO)
 	
-########### VARIABLES GLOBALES ############
-#listas, contiene el password por default de golpes inicial y el que ingreses al intentar abrir la puerta
-password = []
-ingresado = []
-cantSegm = 0
-count = 0
+	# if not(fbLuz == PuertaRaspi["Led"]["estado"] and 
+			# fbPresencia == PuertaRaspi["Presencia"]["estado"] and
+			# fbPuerta == PuertaRaspi["Servo"]["angulo"] and
+			# fbForzado == PuertaRaspi["Servo"]["esfuerzo"]):
+		# PuertaBBDD["Led"]["estado"] = fbLuz
+		# PuertaBBDD["Presencia"]["estado"] = fbPresencia
+		# PuertaBBDD["Servo"]["angulo"] = fbPuerta
+		# PuertaBBDD["Servo"]["esfuerzo"] = fbForzado
+
 # Estados y Deadlines: Usados para corte de control
-dlSegmentoGolpe = time.time()
-
-
-###########  CONFIGURACIONES   ############
-#Mensajes salientes
-mout=0
-#Patas GPIO usadas
-GPIO_LED_ROJO = 4
-GPIO_LED_VERDE = 5
-GPIO_MICROFONO = 17
-GPIO_LED_BLANCO = 18
-GPIO_LED_AMARILLO = 18
-GPIO_LED_PRESENCIA = GPIO_LED_BLANCO
-GPIO_INFRARROJO = 23
-GPIO_SERVO = 24
-#tiempo de escucha por cada golpe para detectar un golpe o no
-tiempoEscucha = 1.5
-#seteo de numeros de golpes que se ingresaran como password
-cantidadGolpes = 5
-
+ya = time.time()
+tieMicroSegm = ya
+dlMicroSegm = 1.5 #tiempo de escucha por cada golpe para detectar un golpe o no
+tiePuerta2 = ya
+tiePuerta3 = ya
+tiePuerta12 = ya
+dlPulsadorDEBOUNCE = 0.3
+	
 try:
 	# Setup / Configuracion de GPIO
 	GPIO.setmode(GPIO.BCM)
@@ -91,59 +148,60 @@ try:
 	GPIO.setup(GPIO_LED_ROJO, GPIO.OUT) ## salida
 	GPIO.setup(GPIO_LED_VERDE, GPIO.OUT) ## salida
 	GPIO.setup(GPIO_LED_BLANCO, GPIO.OUT) ## salida
-	GPIO.setup(GPIO_SERVO, GPIO.IN) ## entrada
+	GPIO.setup(GPIO_PULSADOR, GPIO.IN) ## entrada
 
 	#Objeto arduino linkeado al puerto serie
 	arduino = serial.Serial('/dev/ttyACM0', 9600) 
-
-    fn.log.info("Por favor, setee la secuencia de golpes")
-    fn.log.info("La cantidad de golpes son ", cantidadGolpes)
-    fn.log.info("Cada vez que se prende el led rojo, se espera o no un golpe")
-	if mout>0: time.sleep(2)
+	
+	#Actualizar BBDD
+	impactarCambiosPuerta(True, False,False,False,False)	
+	# fn.log.info("Por favor, setee la secuencia de golpes")
+	#fn.log.info("La cantidad de golpes son " + str(cantidadGolpes))
+	#fn.log.info("Cada vez que se prende el led rojo, se espera o no un golpe")
+	if mout > 0: 
+		time.sleep(2)
 
 	## GENERACION DE CÓDIGO DE GOLPES ##
 	cantSegm = 0
-    while cantSegm < cantidadGolpes:
-        senMicroSegm = 0
-        dlSegmentoGolpe = time.time() + tiempoEscucha
-        
-        #se prende el led indicando que espera un golpe
-        GPIO.output(GPIO_LED_ROJO,True)
-    
+	while cantSegm < cantidadGolpes:
+		senMicroSegm = 0
+		tieMicroSegm = time.time()
+		
+		#se prende el led indicando que espera un golpe
+		GPIO.output(GPIO_LED_ROJO,True)
+	
 		#bucle de escucha de un golpe.. en el tiempo indicado que dura un golpe
-        while time.time() < dlSegmentoGolpe :
-            if GPIO.input(GPIO_MICROFONO):
-                #prende el led verde indicando que se esucho un golpe
-                GPIO.output(GPIO_LED_VERDE,True)
-                senMicroSegm = 1
-            else:
-                GPIO.output(GPIO_LED_VERDE,False)
-        cantSegm = cantSegm + 1
-        
-        #se termina de escuchar un golpe, y se guarda el resultado en la lista
-        GPIO.output(GPIO_LED_ROJO,False)
-        time.sleep(1)
-        fn.log.debug(senMicroSegm,",")
-        password.append(senMicroSegm)
+		while time.time() < tieMicroSegm + dlMicroSegm:
+			if GPIO.input(GPIO_MICROFONO):
+				#prende el led verde indicando que se esucho un golpe
+				GPIO.output(GPIO_LED_VERDE,True)
+				senMicroSegm = 1
+			else:
+				GPIO.output(GPIO_LED_VERDE,False)
+		cantSegm = cantSegm + 1
+		
+		#se termina de escuchar un golpe, y se guarda el resultado en la lista
+		GPIO.output(GPIO_LED_ROJO,False)
+		time.sleep(1)
+		fn.log.debug(senMicroSegm,",")
+		password.append(senMicroSegm)
 	
-    # PRENDE AMBAS LUCES : indica que se va pedir que ingreses el pass para abrir o no la puerta
-    GPIO.output(GPIO_LED_ROJO,True)
-    GPIO.output(GPIO_LED_VERDE,True)
+	# PRENDE AMBAS LUCES : indica que se va pedir que ingreses el pass para abrir o no la puerta
+	GPIO.output(GPIO_LED_ROJO,True)
+	GPIO.output(GPIO_LED_VERDE,True)
 	
 	
-    fn.log.info("Por favor, Ingrese la contraseña")
-    fn.log.info("La cantidad de golpes son ", cantidadGolpes)
-    fn.log.info("Cada vez que se prende el led rojo, se espera o no un golpe")
+	fn.log.info("Por favor, Ingrese la contraseña")
+	fn.log.info("La cantidad de golpes son ", cantidadGolpes)
+	fn.log.info("Cada vez que se prende el led rojo, se espera o no un golpe")
 
-    time.sleep(1)
+	time.sleep(1)
 	
 	# APAGA AMBAS LUCES
-    GPIO.output(GPIO_LED_ROJO,False)
-    GPIO.output(GPIO_LED_VERDE,False)
-    #time.sleep(2)
+	GPIO.output(GPIO_LED_ROJO,False)
+	GPIO.output(GPIO_LED_VERDE,False)
+	#time.sleep(2)
 	
-	estado = arduino.readline()
-
 	fn.log.info("Inicializando escucha. Con Ctrl+C sale del programa")
 	fn.log.debug("Estado de la puerta: " + str(estado))
 	if mout>0: time.sleep(2)
@@ -154,12 +212,14 @@ try:
 		
 		# DEFINIR CAMBIOS DE ESTADO DE PUERTA POR DEADLINE
 		senInfra = GPIO.input(GPIO_INFRARROJO) #LEO EL SENSOR INFRARROJO PARA SABER SI DETECTO ALGO O NO, DEVUELVE 0 SI DETECTO ALGO
-		senServo = GPIO.input(GPIO_SERVO)
+		senPulsador = GPIO.input(GPIO_PULSADOR)
+		if ya > tieLeerBBDD + dlLeerBBDD:	#Lee archivo cada dlLeerBBDD TIEMPO
+			leerBBDD()
+		if estPuerta == 11 and ya > (tiePuerta12 + dlPuertaMovimiento) :
+			estPuerta = 12
 		if estPuerta > 11:
-			encenderLuz(LUZ_BLANCA, dlLedPuertaAbierta)
-			if ya > tLeerBBDD + dlLeerBBDD:	#Lee archivo cada dlLeerBBDD TIEMPO
-				leerBBDD()
-			if senInfra == 0:
+			encenderLuz(LUZ_BLANCA, dlLedPuertaAbierta) # encender luz mientras este abierta
+			if estInfra == 2:
 				tiePuerta12 = ya
 				estPuerta = 12 #abierta con presencia
 			elif ya < (tiePuerta12 + dlPuertaAbierta):
@@ -171,22 +231,15 @@ try:
 		elif estPuerta < 11:
 			if estPuerta == 2 and(ya > tiePuerta2 + dlDesbloqueo): #desbloqueando Y tiempo de debloqueo excedido
 				estPuerta = 1
-			elif estPuerta == 3 and (ya > tiePuerta3 + dlCerrDesbloq): #desbloqueado y tiempo de CerradoDesbloqueado excedido
-				estPuerta = 1
 		
 		## Encendido de Leds
+		if estPuerta == 1: encenderLuz(LUZ_AMARILLA, GPIO_LED_AMARILLO)
 		mantenerLuz(LUZ_BLANCA)
 		mantenerLuz(LUZ_ROJA)
 		mantenerLuz(LUZ_VERDE)
 		mantenerLuz(LUZ_AMARILLA)
 		
-		######## Sensado de PRESENCIA #######
-'''
-    if (salidaLed.val() == "True"):
-        print("Estado actual: True")
-    elif (salidaLed.val() == "False"):
-        print("Estado actual: False")
-'''
+		######## Sensado de INFRARROJO / PRESENCIA #######
 		if senInfra == 0:
 			if estInfra == 0:
 				fn.log.debbug("Se comenzo a detectar algo")
@@ -196,8 +249,7 @@ try:
 				estInfra = 2
 				fn.log.debbug("Hay algo")
 				encenderLuz(LUZ_BLANCA, dlLedPresencia)
-			
-				#NOTIFICAR PRESENCIA
+				
 				#fn.log.debbug("Detect: ON - LED EN BDD EN FIREBASE: ON ")
 				#if (salidaLed.val() == "False"):
 				#	firebase_(puerta,salidaLed.val()) # LLAMO A UNA FUNCION PARA MODIFICAR EL CAMPO ESTADO EN FIREBASE
@@ -212,64 +264,90 @@ try:
 				#	firebase_(puerta,salidaLed.val()) # LLAMO A UNA FUNCION PARA MODIFICAR EL CAMPO ESTADO EN FIREBASE
 
 		######## Sensado de GOLPES #######
-		if estPuerta in [1,2] and estInfra > 0: #Puerta cerrada Y Presencia Detectada
-			if ya < dlSegmentoGolpe:	#sensando si hay GOLPE/NO-GOLPE en 1 Vez
+		if estPuerta in [1,2] and estInfra == 2: #Puerta cerrada Y Presencia Detectada
+			if ya < tieMicroSegm + dlMicroSegm:	#sensando si hay GOLPE/NO-GOLPE en 1 Vez
 				if senMicroSegm == 0:
 					senMicro = GPIO.input(GPIO_MICROFONO)
 				if senMicro:
-					encenderLuz(LUZ_VERDE,0.2)
+					encenderLuz(LUZ_VERDE,dlLedGolpeSensado)
 					senMicroSegm = 1
 					golpes += 1
-					estPuerta = 2 # Puerta cerrada Desbloqueando
+					# PRIMER GOLPE SENSADO
+					if estPuerta == 1:
+						estPuerta = 2 # Puerta cerrada Desbloqueando
+						tiePuerta2 = ya
 			elif estPuerta == 2:
 				cantSegm += 1
 				ingresado.append(senMicroSegm)
 				# Prepara proximo segmento
-				dlSegmentoGolpe = ya + tiempoEscucha
+				tieMicroSegm = ya
 				senMicroSegm = 0
 				fn.log.debug(senMicroSegm,",")
 				
-			if cantSegm == cantidadGolpes:
-				#una vez que tiene los golpes ingresados para abrir la puerta, la compara con el pass seteado al principio    
-				coincide = 1
-				#si no coinciden , cambia la marca de coinciden a 0 y advierte de secuencia incorrecta con el led rojo, de lo contrario con el verde
-				for i in range(cantidadGolpes - 1):
-					if (password[i] != ingresado[i]):
-						coincide = 0
-						break
+				if cantSegm == cantidadGolpes:
+					#una vez que tiene los golpes ingresados para abrir la puerta, la compara con el pass seteado al principio    
+					coincide = 1
+					#si no coinciden , cambia la marca de coinciden a 0 y advierte de secuencia incorrecta con el led rojo, de lo contrario con el verde
+					for i in range(cantidadGolpes - 1):
+						if (password[i] != ingresado[i]):
+							coincide = 0
+							break
+						else:
+							fn.log.debug("el elemento ",i," coinciden")
+					
+					if(coincide == 0):
+						GPIO.output(GPIO_LED_ROJO,True)
+						encenderLuz(LUZ_ROJA,dlLedPassMal)
+						fn.log.warning("Secuencia incorrecta!!! alerta policia")
 					else:
-						fn.log.debug("el elemento ",i," coinciden")
-				
-				if(coincide == 0):
-					GPIO.output(GPIO_LED_ROJO,True)
-					encenderLuz(LUZ_ROJA,dlLedPassMal)
-					fn.log.warning("Secuencia incorrecta!!! alerta policia")
-				else:
-					estPuerta = 3 #Puerta cerrada NO Bloqueada
-					encenderLuz(LUZ_VERDE,dlLedPassOk)
-					fn.log.info("Puerta desbloqueada, por favor, ingrese")
-				cantSegm = 0
+						estPuerta = 11 #Puerta abriendo
+						arduino.write('A')	#Abrir puerta
+						encenderLuz(LUZ_VERDE,dlLedPassOk)
+						fn.log.info("Puerta desbloqueada, por favor, ingrese")
+						fn.log.debug("Enviada orden a Arduino")
+					cantSegm = 0
 	
-		####### Sensado de SERVO #######
-		senServo = GPIO.input(GPIO_SERVO)
+		####### Sensado de PULSADOR #######
+		if senPulsador == True and ya > tiePulsador + dlPulsadorDEBOUNCE:
+			tiePulsador = ya
+			if estPuerta in [12,13]:
+				arduino.write('A')	#Cerrar puerta
+				estPuerta = 14 #Puerta cerrando
+			#elif estPuerta in [1,2]:
+			#	encenderLuz(LUZ_ROJA,dlLuzPulsadorError)
+			elif estPuerta < 11:
+				arduino.write('A')
+				estPuerta = 11 #Puerta abriendo
+				
+				count = count + 1
+				fn.log.debug("Boton presionado " + str(count) + " veces.")
+				#estado = arduino.readline()
+				#time.sleep(.02) #PERIODO DE ACCION DEL SERVO: 20 ms.
 
-		if (senServo == True):
-			count = count + 1
-			fn.log.debug("Boton presionado " + str(count) + " veces.")
-			arduino.write('A')
-			time.sleep(.3) #DEBOUNCE
-			estado = arduino.readline()
-			fn.log.debug(estado)
-			#time.sleep(.02) #PERIODO DE ACCION DEL SERVO: 20 ms.
-
+		####### Sensado de SERVO / FORZADO ########
 		estado = arduino.readline()
-		strEstado = str(estado)
 		fn.log.debug(estado)
-		#NO FUNCIONA ESTE IF REVISAR
-		#if (strEstado == "FORZADO"):
-		#    fn.log.debug(estado)
-		#signal.signal(signal.SIGINT, signal_handler)
-		#time.sleep(.01)
+		if estPuerta in [12,13,1,2]:
+			fn.log.debug("Arduino:"+estado)
+			if estEstado == "FORZADO":
+				if estPuerta in [1,2]: #ATENCION: Alertaria durante los golpes
+					if estForzado == 0:
+						estForzado = 1
+						tieForzado = ya
+					elif estForzado == 1 and ya > tieForzado + dlForzado:
+						estForzado = 2
+						fn.log.warning("PUERTA FORZADA")
+						#NOTIFICAR A BBDD
+			else:
+				estForzado = 0
+	
+		####### Comprobacion Cambios en PUERTA #######
+		impactarCambiosPuerta(False,
+							(dlEstadoLuz[LUZ_BLANCA]),
+							(estInfra == 2),
+							(estPuerta in [12,13]),
+							(estForzado == 2))
+		
 	
 except (KeyboardInterrupt, SystemExit):
 	fn.log.warning('Programa detenido')
@@ -284,5 +362,5 @@ finally:
 	
 	time.sleep(2) # permitir visibilidad de último estado de leds
 	arduino.close()
-    GPIO.cleanup()
+	GPIO.cleanup()
 	sys.exit(0)
