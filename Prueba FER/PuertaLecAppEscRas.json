@@ -1,1 +1,1 @@
-{"Presencia": {"estado": "on"}, "Led": {"estado": "on"}, "Servo": {"angulo": 1, "esfuerzo": 0}}
+{"Led": {"estado": "off"}, "Presencia": {"estado": "off"}, "Servo": {"angulo": 0, "esfuerzo": 0}}
