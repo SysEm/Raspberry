@@ -3,9 +3,9 @@ import time
 
 
 #GPIO que se usan para el microfono y los leds
-micro = 17
-ledRojo = 4
-ledVerde = 18
+micro = 25
+ledRojo = 16
+ledVerde = 20
 
 #seteo como inputs y outputs de los GPIO
 GPIO.setmode(GPIO.BCM)

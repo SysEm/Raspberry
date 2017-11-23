@@ -90,7 +90,7 @@ dlLedApp = 10 #Deadline Led - Reflector con Orden de App
 
 ya = time.time()
 tieMicroSegm = ya
-dlMicroSegm = 1.5 #tiempo de escucha por cada golpe para detectar un golpe o no
+dlMicroSegm = 3 #tiempo de escucha por cada golpe para detectar un golpe o no
 tiePuerta2 = ya
 tiePuerta3 = ya
 tiePuerta12 = ya
@@ -179,13 +179,13 @@ def leerPuertaBBDD():
 		fn.log.debug("Leido en Archivo: archHaciaRaspi")
 		#fn.log.debug("Leido en Archivo:"+archHaciaRaspi+json.dumps(puerta, cls=jsonutil.JSONEncoder))
 		#Encendido de Luz : Mandatorio
-		fn.log.debug("APP : Led : " + PuertaBBDD["Led"]["estado"])
+		fn.log.debug("APP : Led : " + str(PuertaBBDD["Led"]["estado"]))
 		if PuertaBBDD["Led"]["estado"] == P_LED_EST_ON:
 			encenderLuz(LUZ_BLANCA,dlLedApp)
 		elif PuertaBBDD["Led"]["estado"] == P_LED_EST_OFF:
 			apagarLuz(LUZ_BLANCA)
 		#Apertura de Puerta : Segun estPuerta
-		fn.log.debug("APP : Puerta : " + PuertaBBDD["Servo"]["angulo"])
+		fn.log.debug("APP : Puerta : " + str(PuertaBBDD["Servo"]["angulo"]))
 		if PuertaBBDD["Servo"]["angulo"] == P_SERV_ANG_ABIERTO and estPuerta in [PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]:
 			cerrarPuerta()
 		elif PuertaBBDD["Servo"]["angulo"] == P_SERV_ANG_CERRADO and estPuerta < PU_MOV_ABRIENDO:
@@ -290,8 +290,8 @@ try:
 
 		fn.log.debug("estPuerta:"+str(estPuerta)+" - estInfra:"+str(estInfra)+" - estForzado:"+str(estForzado) )
 		## Encendido de Leds
-		if ya > tieLeerBBDD + dlLeerBBDD:	#Lee archivo cada dlLeerBBDD TIEMPO
-			leerPuertaBBDD()
+		#if ya > tieLeerBBDD + dlLeerBBDD:	#Lee archivo cada dlLeerBBDD TIEMPO
+			#leerPuertaBBDD()
 		if estPuerta == PU_CERR_BLOQUEADA: encenderLuz(LUZ_AMARILLA, GPIO_LED_AMARILLO)
 		mantenerLuz(LUZ_BLANCA)
 		mantenerLuz(LUZ_ROJA)
@@ -322,7 +322,8 @@ try:
 
 		######## Sensado de GOLPES #######
 		if estPuerta in [PU_CERR_BLOQUEADA,PU_CERR_DESBLOQUEANDO] and estInfra == IR_HAYPRESENCIA: #Puerta cerrada Y Presencia Detectada
-			if estPuerta == PU_CERR_BLOQUEADA or (ya < tieMicroSegm + dlMicroSegm and senMicroSegm == 0):	#sensando si hay GOLPE/NO-GOLPE en 1 Vez
+			if estPuerta == PU_CERR_BLOQUEADA or (ya < tieMicroSegm + dlMicroSegm):	#sensando si hay GOLPE/NO-GOLPE en 1 Vez
+                            if senMicroSegm == 0:
 				senMicro = GPIO.input(GPIO_MICROFONO)
 				fn.log.debug("Micro:"+str(senMicro))
 				if senMicro == 1:
@@ -352,7 +353,7 @@ try:
 				#una vez que tiene los golpes ingresados para abrir la puerta, la compara con el pass seteado al principio    
 				coincide = 1
 				#si no coinciden , cambia la marca de coinciden a 0 y advierte de secuencia incorrecta con el led rojo, de lo contrario con el verde
-				for i in range(cantGolpes - 1):
+				for i in range(cantGolpes):
 					fn.log.debug(str(cantGolpes) + " ... i:" + str(i))
 					if (password[i] != ingresado[i]):
 						coincide = 0
