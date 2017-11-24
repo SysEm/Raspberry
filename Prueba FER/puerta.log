@@ -1,0 +1,44 @@
+INFO:puertasfunciones:Por favor, setee la secuencia de golpes
+INFO:puertasfunciones:La cantidad de golpes son 3
+INFO:puertasfunciones:Cada vez que se prende el led rojo, se espera o no un golpe
+INFO:puertasfunciones:La cantidad de golpes/silencios son 3
+INFO:puertasfunciones:Cada vez que se prende el led AMARILLO, se espera un golpe/silencio
+INFO:puertasfunciones:Inicializando escucha. Con Ctrl+C sale del programa
+DEBUG:puertasfunciones:Estado de la puerta: RZADO
+
+DEBUG:puertasfunciones:INICIO:1511490297.85
+ERROR:puertasfunciones:unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+DEBUG:puertasfunciones:FIN:1511490297.85
+INFO:puertasfunciones:Por favor, setee la secuencia de golpes
+INFO:puertasfunciones:La cantidad de golpes son 3
+INFO:puertasfunciones:Cada vez que se prende el led rojo, se espera o no un golpe
+INFO:puertasfunciones:La cantidad de golpes/silencios son 3
+INFO:puertasfunciones:Cada vez que se prende el led AMARILLO, se espera un golpe/silencio
+INFO:puertasfunciones:Inicializando escucha. Con Ctrl+C sale del programa
+DEBUG:puertasfunciones:Estado de la puerta: ORZADO
+
+DEBUG:puertasfunciones:INICIO:1511490586.72
+ERROR:puertasfunciones:global name 'deadline' is not defined
+DEBUG:puertasfunciones:FIN:1511490586.72
+INFO:puertasfunciones:Por favor, setee la secuencia de golpes
+INFO:puertasfunciones:La cantidad de golpes son 3
+INFO:puertasfunciones:Cada vez que se prende el led rojo, se espera o no un golpe
+INFO:puertasfunciones:La cantidad de golpes/silencios son 3
+INFO:puertasfunciones:Cada vez que se prende el led AMARILLO, se espera un golpe/silencio
+INFO:puertasfunciones:Inicializando escucha. Con Ctrl+C sale del programa
+DEBUG:puertasfunciones:Estado de la puerta: 
+
+DEBUG:puertasfunciones:INICIO:1511490691.05
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
+ERROR:puertasfunciones:unsupported operand type(s) for +: 'float' and 'datetime.timedelta'
+DEBUG:puertasfunciones:FIN:1511490694.06

@@ -32,7 +32,8 @@ def escribir(path,json_obj):
 
 #Nivel de Log a mostrar
 #logging.basicConfig(level=logging.INFO)
-logging.basicConfig(level=logging.DEBUG)
+#logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(filename='puerta.log',level=logging.DEBUG)
 #logging.basicConfig(level=logging.CRITICAL)
 
 # Variable Global log como logging
