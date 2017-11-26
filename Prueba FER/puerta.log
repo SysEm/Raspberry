@@ -1,44 +1,627 @@
 INFO:puertasfunciones:Por favor, setee la secuencia de golpes
-INFO:puertasfunciones:La cantidad de golpes son 3
+INFO:puertasfunciones:La cantidad de golpes son 10
 INFO:puertasfunciones:Cada vez que se prende el led rojo, se espera o no un golpe
-INFO:puertasfunciones:La cantidad de golpes/silencios son 3
+INFO:puertasfunciones:La cantidad de golpes/silencios son 10
 INFO:puertasfunciones:Cada vez que se prende el led AMARILLO, se espera un golpe/silencio
 INFO:puertasfunciones:Inicializando escucha. Con Ctrl+C sale del programa
-DEBUG:puertasfunciones:Estado de la puerta: RZADO
+DEBUG:puertasfunciones:Estado de la puerta: ONARIO
 
-DEBUG:puertasfunciones:INICIO:1511490297.85
-ERROR:puertasfunciones:unsupported operand type(s) for +: 'datetime.datetime' and 'int'
-DEBUG:puertasfunciones:FIN:1511490297.85
-INFO:puertasfunciones:Por favor, setee la secuencia de golpes
-INFO:puertasfunciones:La cantidad de golpes son 3
-INFO:puertasfunciones:Cada vez que se prende el led rojo, se espera o no un golpe
-INFO:puertasfunciones:La cantidad de golpes/silencios son 3
-INFO:puertasfunciones:Cada vez que se prende el led AMARILLO, se espera un golpe/silencio
-INFO:puertasfunciones:Inicializando escucha. Con Ctrl+C sale del programa
-DEBUG:puertasfunciones:Estado de la puerta: ORZADO
+DEBUG:puertasfunciones:INICIO:1511730930.41
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
 
-DEBUG:puertasfunciones:INICIO:1511490586.72
-ERROR:puertasfunciones:global name 'deadline' is not defined
-DEBUG:puertasfunciones:FIN:1511490586.72
-INFO:puertasfunciones:Por favor, setee la secuencia de golpes
-INFO:puertasfunciones:La cantidad de golpes son 3
-INFO:puertasfunciones:Cada vez que se prende el led rojo, se espera o no un golpe
-INFO:puertasfunciones:La cantidad de golpes/silencios son 3
-INFO:puertasfunciones:Cada vez que se prende el led AMARILLO, se espera un golpe/silencio
-INFO:puertasfunciones:Inicializando escucha. Con Ctrl+C sale del programa
-DEBUG:puertasfunciones:Estado de la puerta: 
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
 
-DEBUG:puertasfunciones:INICIO:1511490691.05
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escucha al sensor en este segmento
-ERROR:puertasfunciones:unsupported operand type(s) for +: 'float' and 'datetime.timedelta'
-DEBUG:puertasfunciones:FIN:1511490694.06
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIOê
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIOêInicializando servo, posicion incial CERRADO, angulo: 90
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 00:15:39.626925 > 2017-11-27 00:15:39.436830(2017-11-27 00:15:37.636830 + 1.8)
+DEBUG:puertasfunciones:{i:54 Nro Segm 0: '1'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 1 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 00:15:41.430277 > 2017-11-27 00:15:41.426925(2017-11-27 00:15:39.626925 + 1.8)
+DEBUG:puertasfunciones:{i:63 Nro Segm 1: '1'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 2 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 00:15:43.231440 > 2017-11-27 00:15:43.230277(2017-11-27 00:15:41.430277 + 1.8)
+DEBUG:puertasfunciones:{i:72 Nro Segm 2: '1'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 3 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 00:15:45.240215 > 2017-11-27 00:15:45.031440(2017-11-27 00:15:43.231440 + 1.8)
+DEBUG:puertasfunciones:{i:78 Nro Segm 3: '0'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 4 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 00:15:47.050758 > 2017-11-27 00:15:47.040215(2017-11-27 00:15:45.240215 + 1.8)
+DEBUG:puertasfunciones:{i:84 Nro Segm 4: '0'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 5 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 00:15:49.036942 > 2017-11-27 00:15:48.850758(2017-11-27 00:15:47.050758 + 1.8)
+DEBUG:puertasfunciones:{i:101 Nro Segm 5: '1'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 6 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 00:15:50.838210 > 2017-11-27 00:15:50.836942(2017-11-27 00:15:49.036942 + 1.8)
+DEBUG:puertasfunciones:{i:110 Nro Segm 6: '1'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 7 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 00:15:52.845411 > 2017-11-27 00:15:52.638210(2017-11-27 00:15:50.838210 + 1.8)
+DEBUG:puertasfunciones:{i:116 Nro Segm 7: '0'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 8 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 00:15:54.654563 > 2017-11-27 00:15:54.645411(2017-11-27 00:15:52.845411 + 1.8)
+DEBUG:puertasfunciones:{i:122 Nro Segm 8: '0'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Segmento Actual: 9 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 00:15:56.646985 > 2017-11-27 00:15:56.454563(2017-11-27 00:15:54.654563 + 1.8)
+DEBUG:puertasfunciones:{i:139 Nro Segm 9: '1'}
+DEBUG:puertasfunciones:Comprobando... PASSWORD:1110011001 INGRESADO:1110011001
+DEBUG:puertasfunciones:Compara 0: pass(1) ingr(1)
+DEBUG:puertasfunciones:Compara 1: pass(1) ingr(1)
+DEBUG:puertasfunciones:Compara 2: pass(1) ingr(1)
+DEBUG:puertasfunciones:Compara 3: pass(0) ingr(0)
+DEBUG:puertasfunciones:Compara 4: pass(0) ingr(0)
+DEBUG:puertasfunciones:Compara 5: pass(1) ingr(1)
+DEBUG:puertasfunciones:Compara 6: pass(1) ingr(1)
+DEBUG:puertasfunciones:Compara 7: pass(0) ingr(0)
+DEBUG:puertasfunciones:Compara 8: pass(0) ingr(0)
+DEBUG:puertasfunciones:Compara 9: pass(1) ingr(1)
+INFO:puertasfunciones:Puerta desbloqueada, puede ingresar
+DEBUG:puertasfunciones:Enviada orden a Arduino
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+WARNING:puertasfunciones:Programa detenido
+INFO:puertasfunciones:Ha Presionado Ctrl+C, saliendo
+DEBUG:puertasfunciones:FIN:1511730985.82
