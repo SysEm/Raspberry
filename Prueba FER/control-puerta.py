@@ -107,15 +107,10 @@ dlPresencia = 1.2 # Tiempo sensando infrarrojo hasta considerar HAY_PRESENCIA
 
 ###########     FUNCIONES      ############
 def deadline(fecha,delta):
-	#fn.log.debug("estPuerta="+ str(estPuerta))
-	try:
-		return fecha + timedelta(seconds=delta)
-	except:
-		return fecha
+	return fecha + timedelta(seconds=delta)
 
 def playDingDong(): #Reproduce audio "ding-dong.mp3" en el mismo path
-	os.system('ding-dong.mp3')
-## ##	os.system('mpg321 -q ding-dong.mp3 &')
+	os.system('omxplayer --no-osd -o local ding-dong.mp3 > /dev/null 2>&1 &') # el & al final, ejecuta el comando en un nuevo proceso (segundo plano)
 
 def pinIdLuz(idluz):
 	if idluz == LUZ_BLANCA: return GPIO_LED_BLANCO
@@ -148,6 +143,7 @@ def abrirPuerta():
 	global arduino,estPuerta
 	arduino.write('A')	#Abrir puerta
 	estPuerta = PU_MOV_ABRIENDO #Puerta abriendo
+	playDingDong()
 
 def cerrarPuerta():
 	global arduino,estPuerta,tiePuerta14
@@ -299,7 +295,8 @@ try:
 	# 	if ya > deadline(tieLeerBBDD,dlLeerBBDD):	#Lee archivo cada dlLeerBBDD TIEMPO
 	# 		leerPuertaBBDD()
 		## Encendido de Leds
-		if estPuerta == PU_CERR_BLOQUEADA: encenderLuz(LUZ_AMARILLA, 1)
+		if estPuerta == PU_CERR_BLOQUEADA: encenderLuz(LUZ_AMARILLA,0) #Encender luz amarilla siempre que este BLOQUEADA
+		if estInfra == IR_HAYPRESENCIA: encenderLuz(LUZ_BLANCA, dlLedPresencia) #Encender luz blanca siempre que haya presencia
 		mantenerLuz(LUZ_BLANCA)
 		mantenerLuz(LUZ_ROJA)
 		mantenerLuz(LUZ_VERDE)
@@ -314,7 +311,6 @@ try:
 			elif estInfra == IR_SENSANDO and (ya > deadline(tieInfra1, dlPresencia)): # HAY ALGO
 				estInfra = IR_HAYPRESENCIA
 				fn.log.debug("Hay algo")
-				encenderLuz(LUZ_BLANCA, dlLedPresencia)
 		elif senInfra == IR_SEN_NO:
 			if estInfra == IR_SENSANDO:
 				estInfra == IR_NOPRESENCIA # Falsa Presencia
@@ -384,9 +380,10 @@ try:
 					encenderLuz(LUZ_VERDE,dlLedPassOk)
 					fn.log.info("Puerta desbloqueada, puede ingresar")
 					fn.log.debug("Enviada orden a Arduino")
-				nroSegmActual = 0
-				senMicroSegm = 0
-				del passIngresado[:] #vaciar pass ingresada 
+		if estPuerta != PU_CERR_DESBLOQUEANDO and nroSegmActual > 0:
+			nroSegmActual = 0
+			senMicroSegm = 0
+			del passIngresado[:] #vaciar pass ingresada 
 
 		####### Sensado de PULSADOR #######
 		if senPulsador == True and ya > deadline(tiePulsador, dlPulsadorDEBOUNCE):
@@ -441,7 +438,6 @@ finally:
 	arduino.close()
 	fn.log.debug("FIN:" + str(time.time()))
 
-#	playDingDong()
 	encenderLuz(LUZ_ROJA,4)
 	time.sleep(4) # permitir visibilidad de ultimo estado de leds antes de Cleanup
 	GPIO.cleanup()
