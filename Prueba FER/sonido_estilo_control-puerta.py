@@ -198,9 +198,9 @@ def leerPuertaBBDD():
 			apagarLuz(LUZ_BLANCA)
 		#Apertura de Puerta : Segun estPuerta
 		fn.log.debug("APP : Puerta : " + str(PuertaBBDD["Servo"]["angulo"]))
-		if PuertaBBDD["Servo"]["angulo"] == P_SERV_ANG_CERRADO and estPuerta in [PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]:
+		if PuertaBBDD["Servo"]["angulo"] == P_SERV_ANG_ABIERTO and estPuerta in [PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]:
 			cerrarPuerta()
-		elif PuertaBBDD["Servo"]["angulo"] == P_SERV_ANG_ABIERTO and estPuerta < PU_MOV_ABRIENDO:
+		elif PuertaBBDD["Servo"]["angulo"] == P_SERV_ANG_CERRADO and estPuerta < PU_MOV_ABRIENDO:
 			abrirPuerta()
 	else:
 		fn.log.warning("Archivo no Leido: archDesdeRaspi")
@@ -282,12 +282,11 @@ try:
 #	EMULsenMicro = [0,1,0,0,0,1,0,0,1,1,1,1,0,0,1,0,0,0,0,1,1,1,1,1,0,0] #hardcodeada (siempre comenzar en 1)
 	EMULsenMicroi = -1
 	fn.log.debug("INICIO:" + str(time.time()))
+	######### COMIENZA BUCLE INFINITO ##########
 	while True:
 		ya = datetime.now()
 
-	######### COMIENZA BUCLE INFINITO ##########
-	#while True:
-		print("''''''''''''''''''''''''''\t" + str(EMULsenMicroi) + "\t'''''''''''''''''''''")
+		fn.log.debug("''''''''''''''''''''''''''\t" + str(EMULsenMicroi) + "\t'''''''''''''''''''''")
 
 	#	ya = datetime.now()
 		# DEFINIR CAMBIOS DE ESTADO DE PUERTA POR DEADLINE
@@ -303,11 +302,8 @@ try:
 				estPuerta = PU_ABRT_ABIERTA #abierta con presencia
 			elif ya < deadline(tiePuerta12,dlPuertaAbierta):
 				estPuerta = PU_ABRT_SINPRESENCIA #abierta sin presencia
-			elif ya < deadline(deadline(tiePuerta12,dlPuertaAbierta),dlPuertaMovimiento):
+			elif ya > deadline(tiePuerta12,dlPuertaAbierta):
 				cerrarPuerta()
-				#estPuerta = PU_MOV_CERRANDO #cerrando
-				#tiePuerta14 = ya
-				#arduino.write('A')	#Abrir puerta
 		elif estPuerta == PU_MOV_CERRANDO and ya > deadline(tiePuerta14,dlPuertaMovimiento):
 				estPuerta = PU_CERR_BLOQUEADA #cerrada y bloqueada
 	#	elif estPuerta < PU_MOV_ABRIENDO:
@@ -315,9 +311,9 @@ try:
 	#			estPuerta = PU_CERR_BLOQUEADA
 
 	# 	fn.log.debug("estPuerta:"+str(estPuerta)+" - estInfra:"+str(estInfra)+" - estForzado:"+str(estForzado) )
-		## Encendido de Leds
 	# 	if ya > deadline(tieLeerBBDD,dlLeerBBDD):	#Lee archivo cada dlLeerBBDD TIEMPO
 	# 		leerPuertaBBDD()
+		## Encendido de Leds
 		if estPuerta == PU_CERR_BLOQUEADA: encenderLuz(LUZ_AMARILLA, 1)
 		mantenerLuz(LUZ_BLANCA)
 		mantenerLuz(LUZ_ROJA)
@@ -379,7 +375,6 @@ try:
 						encenderLuz(LUZ_VERDE,dlLedGolpeSensado)
 						senMicroSegm = 1
 						golpes += 1
-						#time.sleep(0.3)
 			if ya > deadline(tieMicroSegm, dlMicroSegm):
 				fn.log.debug("Segmento Actual: " + str(nroSegmActual) + " - Golpe: " + str(senMicroSegm) + " => " + ("NO " if senMicroSegm==1 else "") + "escuchando en siguientes iteraciones")
                                 if estPuerta == PU_CERR_DESBLOQUEANDO:
@@ -394,6 +389,7 @@ try:
 				tieMicroSegm = ya
 				senMicroSegm = 0
 				senMicro = 0
+                                golpes = 0
 
 
 			if nroSegmActual >= cantSegmTotal:
@@ -427,18 +423,13 @@ try:
 		# 	tiePulsador = ya
 		# 	if estPuerta in [PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]:
 		# 		cerrarPuerta()
-		# 		#arduino.write('A')	#Cerrar puerta
-		# 		#estPuerta = PU_MOV_CERRANDO #Puerta cerrando
-		# 		#tiePuerta14 = ya
+
 		# 	elif estPuerta < PU_MOV_ABRIENDO:
 		# 		abrirPuerta()
-		# 		#arduino.write('A')
-		# 		#estPuerta = PU_MOV_ABRIENDO #Puerta abriendo
-
 		# 	count = count + 1
 		# 	fn.log.debug("Boton presionado " + str(count) + " veces.")
-		# 		##estArduino = arduino.readline()
-		# 		##time.sleep(.02) #PERIODO DE ACCION DEL SERVO: 20 ms.
+
+
 
 		####### Sensado de SERVO / FORZADO ########
 		estArduino = arduino.readline()
@@ -483,7 +474,8 @@ finally:
 	fn.log.debug("FIN:" + str(time.time()))
 
 #	playDingDong()
-	time.sleep(2) # permitir visibilidad de ultimo estado de leds antes de Cleanup
+	encenderLuz(LUZ_ROJA,4)
+	time.sleep(4) # permitir visibilidad de ultimo estado de leds antes de Cleanup
 	GPIO.cleanup()
 
 ## ##sys.exit(0)
