@@ -408,11 +408,11 @@ try:
 		####### Sensado de SERVO / FORZADO ########
 		estArduino = arduino.readline()
 		#fn.log.debug(estArduino)
-		if estPuerta in [PU_CERR_BLOQUEADA,PU_CERR_DESBLOQUEANDO,PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]:
+		if estPuerta in [PU_CERR_BLOQUEADA,PU_CERR_DESBLOQUEANDO]: #,PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]:
                         estArduino = estArduino.strip()
 			fn.log.debug("Se recibe de Arduino:'"+str(estArduino)+"'")
 			if str(estArduino) == "FORZADO":
-                                #fn.log.debug("Aparente FORZADO")
+                                fn.log.debug("Aparente FORZADO-------------------------------------")
 				if estPuerta in [PU_CERR_BLOQUEADA,PU_CERR_DESBLOQUEANDO]: #ATENCION: Alertaria durante los golpes
 					if estForzado == FZ_NOFORZADO:
 						estForzado = FZ_DETECTANDO
@@ -422,6 +422,8 @@ try:
 					elif estForzado == FZ_DETECTANDO and ya > deadline(tieForzado, dlForzado):
 						estForzado = FZ_FORZADO
 						fn.log.warning("PUERTA FORZADA ----------------------------------------- ESTADO FORZADA")
+						tieForzado = ya
+					elif estForzado == FZ_FORZADO:
 						tieForzado = ya
 			elif estForzado in [FZ_FORZADO, FZ_DETECTANDO] and ya > deadline(tieForzado, dlForzado):
 				#Para volver a NO FORZADO, espera que pase el tieForzado+dlForzado, ya que durante el mismo
@@ -436,8 +438,8 @@ try:
 							(estLuz[LUZ_BLANCA]),
 							(estInfra == IR_HAYPRESENCIA),
 							(estPuerta in [PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]),
-							#(estPuerta in [PU_CERR_DESBLOQUEANDO,PU_CERR_BLOQUEADA] and estForzado == FZ_FORZADO))
 							(estForzado == FZ_FORZADO))
+							#(estPuerta in [PU_CERR_DESBLOQUEANDO,PU_CERR_BLOQUEADA] and estForzado == FZ_FORZADO))
 
 except (KeyboardInterrupt, SystemExit):
 	fn.log.warning('Programa detenido')
