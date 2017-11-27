@@ -46,6 +46,18 @@ config = {
   "databaseURL": "https://soatp-2dfc9.firebaseio.com",
   "storageBucket": "soatp-2dfc9.appspot.com"
 }
+# Valores usados en BBDD (Firebase)
+P_LED_EST_ON = "on"
+P_LED_EST_OFF = "off"
+P_PRES_EST_ON = "on"
+P_PRES_EST_OFF = "off"
+P_SERV_ANG_ABIERTO = 1
+P_SERV_ANG_CERRADO = 0
+P_SERV_ESFUERZO_SI = 1
+P_SERV_ESFUERZO_NO = 0
+
+PuertaRaspi = {"Led": {"estado": P_LED_EST_OFF}, "Presencia": {"estado": P_PRES_EST_OFF}, "Servo": {"angulo": P_SERV_ANG_CERRADO, "esfuerzo": P_SERV_ESFUERZO_NO}}
+PuertaBBDD = {"Led": {"estado": P_LED_EST_OFF}, "Presencia": {"estado": P_PRES_EST_OFF}, "Servo": {"angulo": P_SERV_ANG_CERRADO, "esfuerzo": P_SERV_ESFUERZO_NO}}
 
 pybase = pyrebase.initialize_app(config)
 db = pybase.database()
@@ -66,8 +78,45 @@ def obtenerPuerta(idpuerta):
 
 #Actualiza/graba puerta en Firebase
 def impactarPuerta(idpuerta,dato):
-	return db.child("baseDatosSoa/"+puertaDesdeRaspi).update(dato)
+	return db.child("baseDatosSoa/"+idpuerta).update(dato)
 	#return fbase.put('/baseDatosSoa', idpuerta, dato)
+
+
+def escribirCambiosPuertaApp(puertaNueva):
+        global PuertaBBDD
+
+        if not(puertaNueva["Led"]["estado"] == PuertaBBDD["Led"]["estado"] and
+		puertaNueva["Servo"]["angulo"] == PuertaBBDD["Servo"]["angulo"]):
+		PuertaBBDD["Led"]["estado"] = puertaNueva["Led"]["estado"]
+		PuertaBBDD["Servo"]["angulo"] = puertaNueva["Servo"]["angulo"]
+                fn.escribir(archHaciaRaspi, PuertaBBDD)
+		fn.log.debug("Grabado en archivo: archHaciaRaspi")
+	else:
+		fn.log.debug("Archivo no Grabado: archHaciaRaspi")
+
+def impactarCambiosPuertaRasp(puertaNueva):
+	global PuertaRaspi,PuertaBBDD,puertaDesdeRaspi,puertaHaciaRaspi
+        if not(PuertaRaspi["Led"]["estado"] == puertaNueva["Led"]["estado"] and
+               PuertaRaspi["Presencia"]["estado"] == puertaNueva["Presencia"]["estado"] and
+               PuertaRaspi["Servo"]["angulo"] == puertaNueva["Servo"]["angulo"] and
+               PuertaRaspi["Servo"]["esfuerzo"] == puertaNueva["Servo"]["esfuerzo"]):
+		puerta = impactarPuerta(puertaDesdeRaspi, puertaNueva)    #actualiza/graba puerta Raspi
+		if puerta==None:
+			fn.log.warning("No va puerta Raspi")
+		else:
+			PuertaRaspi["Led"]["estado"] = puertaNueva["Led"]["estado"]
+                	PuertaRaspi["Presencia"]["estado"] = puertaNueva["Presencia"]["estado"]
+        	        PuertaRaspi["Servo"]["angulo"] = puertaNueva["Servo"]["angulo"]
+	                PuertaRaspi["Servo"]["esfuerzo"] = puertaNueva["Servo"]["esfuerzo"]
+
+			puerta = impactarPuerta(puertaHaciaRaspi, puertaNueva)    #actualiza/graba puerta App
+			if puerta==None:
+				fn.log.warning("No va puerta App")
+#			else:
+#                		PuertaBBDD["Led"]["estado"] = puertaNueva["Led"]["estado"]
+#		         	PuertaBBDD["Presencia"]["estado"] = puertaNueva["Presencia"]["estado"]
+#	        	        PuertaBBDD["Servo"]["angulo"] = puertaNueva["Servo"]["angulo"]
+#		                PuertaBBDD["Servo"]["esfuerzo"] = puertaNueva["Servo"]["esfuerzo"]
 
 
 ##objeto=None
@@ -76,41 +125,33 @@ def impactarPuerta(idpuerta,dato):
 
 try:
 	while True:
-		fn.log.debug(datetime.datetime.now())
+		#fn.log.debug(datetime.datetime.now())
 
-		intentos=0
-		while intentos<10:
-			intentos+=1
+		#intentos=0
+		#while intentos<10:
+		#	intentos+=1
 			#objeto["age"]=intentos
 
-			# Grabar en archivo puertaHaciaRaspi: PuertaLecAppEscRas #
-			puerta = obtenerPuerta(puertaHaciaRaspi)
-			if puerta!=None:
-				fn.log.debug("puerta app: "+puerta["Presencia"]["estado"])
-				#fn.log.debug("puerta app:\n"+json.dumps(puerta, cls=jsonutil.JSONEncoder))
-				puerta=fn.escribir(archHaciaRaspi,puerta)
-				if puerta!=None:
-					fn.log.debug("Grabado en archivo: archHaciaRaspi")
-					#fn.log.debug("Grabado en archivo:",archHaciaRaspi," Puerta:",puerta)
-				else:
-					fn.log.debug("Archivo no Grabado: archHaciaRaspi")
-					#fn.log.warning("Archivo no Grabado:",archHaciaRaspi," Puerta:",puerta)
-			else:
-				fn.log.warning("no vino puerta app")
+		# Grabar en archivo puertaHaciaRaspi: PuertaLecAppEscRas #
+		puerta = obtenerPuerta(puertaHaciaRaspi)
+		if puerta!=None:
+			#fn.log.debug("puerta app: "+puerta["Presencia"]["estado"])
+			#fn.log.debug("puerta app:\n"+json.dumps(puerta, cls=jsonutil.JSONEncoder))
+			escribirCambiosPuertaApp(puerta)
+		else:
+			fn.log.warning("no vino puerta app")
 
-			# Leer de archivo puertaDesdeRaspi: PuertaEscAppLecRas #
-			puerta=fn.leer(archDesdeRaspi)
-			if puerta!=None and puerta!="":
-				fn.log.debug("Leido en Archivo: archDesdeRaspi")
-				#fn.log.debug("Leido en Archivo:",archDesdeRaspi,json.dumps(puerta, cls=jsonutil.JSONEncoder))
-				puerta = impactarPuerta(puertaDesdeRaspi, puerta)    #actualiza/graba puerta
-				if puerta==None:
-					fn.log.warning("No va puerta Raspi")
-			else:
-				fn.log.warning("Archivo no Leido: archDesdeRaspi")
+		# Leer de archivo puertaDesdeRaspi: PuertaEscAppLecRas #
+		puerta = fn.leer(archDesdeRaspi)
+		if puerta!=None and puerta!="":
+			impactarCambiosPuertaRasp(puerta)
+			#fn.log.debug("Leido en Archivo: archDesdeRaspi")
+			#fn.log.debug("Leido en Archivo:",archDesdeRaspi,json.dumps(puerta, cls=jsonutil.JSONEncoder))
+		else:
+			fn.log.warning("Archivo no Leido: archDesdeRaspi")
 	#       sleep(5)
 			
-			fn.log.debug(datetime.datetime.now())
+		#	fn.log.debug(datetime.datetime.now())
 except (KeyboardInterrupt, SystemExit):
 	fn.log.warning('Programa detenido')
 	fn.log.info('Ha Presionado Ctrl+C, saliendo')

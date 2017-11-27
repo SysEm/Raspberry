@@ -73,6 +73,7 @@ P_SERV_ANG_CERRADO = 0
 P_SERV_ESFUERZO_SI = 1
 P_SERV_ESFUERZO_NO = 0
 PuertaRaspi = {"Led": {"estado": P_LED_EST_OFF}, "Presencia": {"estado": P_PRES_EST_OFF}, "Servo": {"angulo": P_SERV_ANG_CERRADO, "esfuerzo": P_SERV_ESFUERZO_NO}}
+PuertaBBDD = {"Led": {"estado": P_LED_EST_OFF}, "Presencia": {"estado": P_PRES_EST_OFF}, "Servo": {"angulo": P_SERV_ANG_CERRADO, "esfuerzo": P_SERV_ESFUERZO_NO}}
 
 # ID LUCES
 LUZ_BLANCA = 0
@@ -92,6 +93,8 @@ dlLedApp = 10 #Deadline Led - Reflector con Orden de App
 
 ya = datetime.now()
 tieMicroSegm = ya
+senMicroSegm = 0
+senMicro = 0
 dlMicroSegm = 1.5 #tiempo de escucha por cada golpe para detectar un golpe o no
 dlMicroLoop = 0.3
 tiePuerta2 = ya
@@ -104,6 +107,8 @@ dlPulsadorDEBOUNCE = 0.3
 dlPuertaMovimiento = 0.8 # Tiempo duracion apertura o cierre de puerta
 dlPuertaAbierta = 4 # Tiempo con puerta abierta sin haber Presencia
 dlPresencia = 1.2 # Tiempo sensando infrarrojo hasta considerar HAY_PRESENCIA
+
+flagPisarPuertaApp = False
 
 ###########     FUNCIONES      ############
 def deadline(fecha,delta):
@@ -152,7 +157,7 @@ def cerrarPuerta():
 	tiePuerta14 = ya
 
 def impactarCambiosPuerta(obligado,luz,presencia,puerta,forzado):
-	global PuertaRaspi
+	global PuertaRaspi,flagPisarPuertaApp
 	fbLuz = (P_LED_EST_ON if luz else P_LED_EST_OFF)
 	fbPresencia = (P_PRES_EST_ON if presencia else P_PRES_EST_OFF)
 	fbPuerta = (P_SERV_ANG_ABIERTO if puerta else P_SERV_ANG_CERRADO)
@@ -171,25 +176,29 @@ def impactarCambiosPuerta(obligado,luz,presencia,puerta,forzado):
 		fn.escribir(archDesdeRaspi, PuertaRaspi)
 
 def leerPuertaBBDD():
-	global PuertaBBDD,tieLeerBBDD,estPuerta,arduino
+	global PuertaBBDD,tieLeerBBDD,estPuerta,arduino,flagPisarPuertaApp
 	tieLeerBBDD = ya
-	PuertaBBDD = fn.leer(archHaciaRaspi)
+	PuertaBBDDnueva = fn.leer(archHaciaRaspi)
 
-	if PuertaBBDD!=None and PuertaBBDD!="":
+	if PuertaBBDDnueva != None and PuertaBBDDnueva != "":
 		fn.log.debug("Leido en Archivo: archHaciaRaspi")
 		#fn.log.debug("Leido en Archivo:"+archHaciaRaspi+json.dumps(puerta, cls=jsonutil.JSONEncoder))
-		#Encendido de Luz : Mandatorio
-		fn.log.debug("APP : Led : " + str(PuertaBBDD["Led"]["estado"]))
-		if PuertaBBDD["Led"]["estado"] == P_LED_EST_ON:
-			encenderLuz(LUZ_BLANCA,dlLedApp)
-		elif PuertaBBDD["Led"]["estado"] == P_LED_EST_OFF:
-			apagarLuz(LUZ_BLANCA)
-		#Apertura de Puerta : Segun estPuerta
-		fn.log.debug("APP : Puerta : " + str(PuertaBBDD["Servo"]["angulo"]))
-		if PuertaBBDD["Servo"]["angulo"] == P_SERV_ANG_ABIERTO and estPuerta in [PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]:
-			cerrarPuerta()
-		elif PuertaBBDD["Servo"]["angulo"] == P_SERV_ANG_CERRADO and estPuerta < PU_MOV_ABRIENDO:
-			abrirPuerta()
+		if PuertaBBDD["Led"]["estado"] != PuertaBBDDnueva["Led"]["estado"]:
+			PuertaBBDD["Led"]["estado"] = PuertaBBDDnueva["Led"]["estado"]
+			#Encendido de Luz : Mandatorio
+			fn.log.debug("APP : Led : " + str(PuertaBBDD["Led"]["estado"]))
+			if PuertaBBDD["Led"]["estado"] == P_LED_EST_ON:
+				encenderLuz(LUZ_BLANCA,dlLedApp)
+			elif PuertaBBDD["Led"]["estado"] == P_LED_EST_OFF:
+				apagarLuz(LUZ_BLANCA)
+		if PuertaBBDD["Servo"]["angulo"] != PuertaBBDDnueva["Servo"]["angulo"]:
+			PuertaBBDD["Servo"]["angulo"] = PuertaBBDDnueva["Servo"]["angulo"]
+			#Apertura de Puerta : Segun estPuerta
+			fn.log.debug("APP : Puerta : " + str(PuertaBBDD["Servo"]["angulo"]))
+			if PuertaBBDD["Servo"]["angulo"] == P_SERV_ANG_CERRADO and estPuerta in [PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]:
+				cerrarPuerta()
+			elif PuertaBBDD["Servo"]["angulo"] == P_SERV_ANG_ABIERTO and estPuerta < PU_MOV_ABRIENDO:
+				abrirPuerta()
 	else:
 		fn.log.warning("Archivo no Leido: archDesdeRaspi")
 
@@ -262,8 +271,6 @@ try:
 
 
 ##	SIMULACRO SENSADO DE GOLPES
-	senMicroSegm = 0
-	senMicro = 0
 	EMULsenMicroi = -1
 	fn.log.debug("INICIO:" + str(time.time()))
 	######### COMIENZA BUCLE INFINITO ##########
@@ -292,8 +299,8 @@ try:
 				estPuerta = PU_CERR_BLOQUEADA #cerrada y bloqueada
 
 	# 	fn.log.debug("estPuerta:"+str(estPuerta)+" - estInfra:"+str(estInfra)+" - estForzado:"+str(estForzado) )
-	# 	if ya > deadline(tieLeerBBDD,dlLeerBBDD):	#Lee archivo cada dlLeerBBDD TIEMPO
-	# 		leerPuertaBBDD()
+		if ya > deadline(tieLeerBBDD,dlLeerBBDD):	#Lee archivo cada dlLeerBBDD TIEMPO
+			leerPuertaBBDD()
 		## Encendido de Leds
 		if estPuerta == PU_CERR_BLOQUEADA: encenderLuz(LUZ_AMARILLA,0) #Encender luz amarilla siempre que este BLOQUEADA
 		if estInfra == IR_HAYPRESENCIA: encenderLuz(LUZ_BLANCA, dlLedPresencia) #Encender luz blanca siempre que haya presencia
@@ -415,12 +422,12 @@ try:
 				#puede llegar la senal ESTACIONARIO pero siendo simplemente un ruido. Puede fallar? dificil
 				estForzado = FZ_NOFORZADO
 
-		# ####### Comprobacion Cambios en PUERTA #######
-		# impactarCambiosPuerta(False,
-		# 					(estLuz[LUZ_BLANCA]),
-		# 					(estInfra == IR_HAYPRESENCIA),
-		# 					(estPuerta in [PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]),
-		# 					(estPuerta in [PU_CERR_DESBLOQUEANDO,PU_CERR_BLOQUEADA] and estForzado == FZ_FORZADO))
+		####### Comprobacion Cambios en PUERTA #######
+		impactarCambiosPuerta(False,
+							(estLuz[LUZ_BLANCA]),
+							(estInfra == IR_HAYPRESENCIA),
+							(estPuerta in [PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]),
+							(estPuerta in [PU_CERR_DESBLOQUEANDO,PU_CERR_BLOQUEADA] and estForzado == FZ_FORZADO))
 
 except (KeyboardInterrupt, SystemExit):
 	fn.log.warning('Programa detenido')
