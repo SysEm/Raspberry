@@ -101,12 +101,14 @@ tiePuerta2 = ya
 tiePuerta3 = ya
 tiePuerta12 = ya
 tiePulsador = ya
+tieForzado = ya
 tieLeerBBDD = ya
 dlLeerBBDD = 0.6
 dlPulsadorDEBOUNCE = 0.3
 dlPuertaMovimiento = 0.8 # Tiempo duracion apertura o cierre de puerta
 dlPuertaAbierta = 4 # Tiempo con puerta abierta sin haber Presencia
 dlPresencia = 1.2 # Tiempo sensando infrarrojo hasta considerar HAY_PRESENCIA
+dlForzado = 1.5
 
 flagPisarPuertaApp = False
 
@@ -407,27 +409,35 @@ try:
 		estArduino = arduino.readline()
 		#fn.log.debug(estArduino)
 		if estPuerta in [PU_CERR_BLOQUEADA,PU_CERR_DESBLOQUEANDO,PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]:
-			fn.log.debug("Arduino:"+str(estArduino))
-			if estArduino == "FORZADO":
+                        estArduino = estArduino.strip()
+			fn.log.debug("Se recibe de Arduino:'"+str(estArduino)+"'")
+			if str(estArduino) == "FORZADO":
+                                #fn.log.debug("Aparente FORZADO")
 				if estPuerta in [PU_CERR_BLOQUEADA,PU_CERR_DESBLOQUEANDO]: #ATENCION: Alertaria durante los golpes
 					if estForzado == FZ_NOFORZADO:
 						estForzado = FZ_DETECTANDO
+                                                #fn.log.debug("APARENTE FORZADO estPuerta:"+str(estPuerta)+" - estForzado:"+str(estForzado) )
+						fn.log.debug("FORZADO - DETECTANDO ------------------------------------- DETECTANDO")
 						tieForzado = ya
 					elif estForzado == FZ_DETECTANDO and ya > deadline(tieForzado, dlForzado):
 						estForzado = FZ_FORZADO
-						fn.log.warning("PUERTA FORZADA")
-						#NOTIFICAR A BBDD
-			elif estForzado == FZ_DETECTANDO and ya > deadline(tieForzado, dlForzado):
+						fn.log.warning("PUERTA FORZADA ----------------------------------------- ESTADO FORZADA")
+						tieForzado = ya
+			elif estForzado in [FZ_FORZADO, FZ_DETECTANDO] and ya > deadline(tieForzado, dlForzado):
 				#Para volver a NO FORZADO, espera que pase el tieForzado+dlForzado, ya que durante el mismo
 				#puede llegar la senal ESTACIONARIO pero siendo simplemente un ruido. Puede fallar? dificil
+                                fn.log.debug("Se detecta cambio estPuerta:"+str(estPuerta)+" - estForzado:"+str(estForzado) )
 				estForzado = FZ_NOFORZADO
+                else:
+                    estForzado = FZ_NOFORZADO
 
 		####### Comprobacion Cambios en PUERTA #######
 		impactarCambiosPuerta(False,
 							(estLuz[LUZ_BLANCA]),
 							(estInfra == IR_HAYPRESENCIA),
 							(estPuerta in [PU_ABRT_ABIERTA,PU_ABRT_SINPRESENCIA]),
-							(estPuerta in [PU_CERR_DESBLOQUEANDO,PU_CERR_BLOQUEADA] and estForzado == FZ_FORZADO))
+							#(estPuerta in [PU_CERR_DESBLOQUEANDO,PU_CERR_BLOQUEADA] and estForzado == FZ_FORZADO))
+							(estForzado == FZ_FORZADO))
 
 except (KeyboardInterrupt, SystemExit):
 	fn.log.warning('Programa detenido')
