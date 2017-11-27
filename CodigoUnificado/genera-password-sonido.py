@@ -33,6 +33,15 @@ def escribirArchivo(valor):
     arch.close()
     return None
 
+def leerArchivo():
+    arch = open('./password.txt','r')
+    arch = arch.read()
+    if arch != "":
+        arch = arch.strip('[]')
+        arch = arch.split(', ')
+        for i in arch:
+            print ("valores: " + i)
+
 
 try:
     veces = 0
@@ -40,7 +49,7 @@ try:
 ######################## GRABACION DE PASSWORD DE SONIDO ######################## 
     print ("Por favor, setee la secuencia de golpes")
     print ("La cantidad de golpes son ", cantidadGolpes)
-    print ("cada ves que se prende el led rojo, se espera o no un golpe")
+    print ("Cada vez que se prende el led rojo, se espera o no un golpe")
     #el sleep es para que se pueda leer lo que se pide ja.. se puede indicar con los led, claro
     time.sleep(1)
     while veces < cantidadGolpes:
@@ -65,7 +74,7 @@ try:
         #se termina de escuchar un golpe, y se guarda el resultado en la lista
         GPIO.output(ledRojo,False)
         time.sleep(.5)
-        print (valor,",")
+        print (valor)
         password.append(valor)
 
 
@@ -76,7 +85,7 @@ try:
 
     print ("Por favor, Ingrese la contrasena")
     print ("La cantidad de golpes son ", cantidadGolpes)
-    print ("cada ves que se prende el led rojo, se espera o no un golpe")
+    print ("Cada vez que se prende el led rojo, se espera o no un golpe")
 
 
     time.sleep(.5)
@@ -102,7 +111,7 @@ try:
         veces = veces + 1
         GPIO.output(ledRojo,False)
         time.sleep(1)
-        print (valor,",")
+        print (valor)
         ingresado.append(valor)
 
     #una vez que tiene los golpes ingresados para abrir la puerta, la compara con el pass seteado al principio    
@@ -123,6 +132,8 @@ try:
         GPIO.output(ledVerde,True)
         print ("Secuencia correcta, grabando password")
         escribirArchivo(str(password))
+        time.sleep(1)
+        leerArchivo()
 
 #este para que se vea el resultado en los led. sino se apagan con el clean...
     time.sleep(2)

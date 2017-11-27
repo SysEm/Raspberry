@@ -7,6 +7,23 @@ import sys
 import os
 
 import puertasfunciones as fn
+
+
+def leerPassword():
+    arch = open('./password.txt','r')
+    arch = arch.read()
+    if arch != "":
+        arch = arch.strip('[]')
+        arch = arch.split(', ')
+        #for i in arch:
+        #print ("valores: " + i)
+        return arch
+    else:
+        print("no existe el archivo de password, saliendo...")
+        GPIO.cleanup()
+        sys.exit(1)
+
+
 ###########  CONFIGURACIONES   ############
 #Patas GPIO usadas
 GPIO_LED_ROJO = 16
@@ -22,7 +39,8 @@ GPIO_PULSADOR = 24
 ########### VARIABLES GLOBALES ############
 #listas, contiene el password por default de golpes inicial y el que ingreses al intentar abrir la puerta
 #password = [1,1,1,0,0,1,1,0,0,1] #hardcodeada (siempre comenzar en 1)
-password = [1,0,1] #hardcodeada (siempre comenzar en 1)
+#password = [1,0,1] #hardcodeada (siempre comenzar en 1)
+password = leerPassword() #hardcodeada (siempre comenzar en 1)
 passIngresado = []
 cantSegmTotal = 3 #seteo de numeros de golpes/silencios que se ingresaran como password
 nroSegmActual = 0
@@ -230,31 +248,6 @@ try:
 
 #GENERACION DE CODIGO DE GOLPES#
 
-#	nroSegmActual = 0
-#	while nroSegmActual < cantSegmTotal:
-#		senMicroSegm = 0
-#		tieMicroSegm = datetime.now()
-#
-#		#se prende el led indicando que espera un golpe
-#		encenderLuz(LUZ_AMARILLA,dlLedSegmCambia)
-#
-#		#bucle de escucha de un golpe.. en el tiempo indicado que dura un golpe
-#		while datetime.time() < deadline(tieMicroSegm, dlMicroSegm):
-#			if GPIO.input(GPIO_MICROFONO):
-#				#prende el led verde indicando que se esucho un golpe
-#				encenderLuz(LUZ_VERDE,dlLedSegmCambia)
-#				senMicroSegm = 1
-#			else:
-#				apagarLuz(LUZ_VERDE)
-#		nroSegmActual = nroSegmActual + 1
-#
-#		#se termina de escuchar un golpe, y se guarda el resultado en la lista
-#		apagarLuz(LUZ_ROJA)
-#		time.sleep(1)
-#		fn.log.debug(str(senMicroSegm)+",")
-#no guardar password		password.append(senMicroSegm)
-
-
 
 #	fn.log.info("Por favor, ingrese la contrasena")
 	fn.log.info("La cantidad de golpes/silencios son "+ str(cantSegmTotal))
@@ -376,7 +369,7 @@ try:
 				for i in range(cantSegmTotal):
 					#fn.log.debug(str(cantSegmTotal) + " ... i:" + str(i))
                                         fn.log.debug("Compara " + str(i) + ": pass("+str(password[i])+") ingr("+str(passIngresado[i])+")")
-					if (password[i] != passIngresado[i]):
+					if (str(password[i]) != str(passIngresado[i])):
 						coincidePass = 0
 						break
 
