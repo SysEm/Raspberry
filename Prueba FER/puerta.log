@@ -29632,3 +29632,3107 @@ DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
 WARNING:puertasfunciones:Programa detenido
 INFO:puertasfunciones:Ha Presionado Ctrl+C, saliendo
 INFO:puertasfunciones:...............
+INFO:puertasfunciones:Por favor, setee la secuencia de golpes
+INFO:puertasfunciones:La cantidad de golpes son 3
+INFO:puertasfunciones:Cada vez que se prende el led rojo, se espera o no un golpe
+INFO:puertasfunciones:La cantidad de golpes/silencios son 3
+INFO:puertasfunciones:Cada vez que se prende el led AMARILLO, se espera un golpe/silencio
+INFO:puertasfunciones:Inicializando escucha. Con Ctrl+C sale del programa
+DEBUG:puertasfunciones:Primer estado del Arduino: ACIONARIO
+
+DEBUG:puertasfunciones:INICIO:1511749493.47
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	0	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	1	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIRIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	2	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	3	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	4	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	5	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	6	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	7	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	8	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	9	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	10	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIÿIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	11	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	12	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	13	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	14	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	15	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	16	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	17	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	18	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	19	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIÿInicializando servo, posicion incial CERRADO, angulo: 90
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	20	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	21	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	22	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	23	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	24	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	25	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	26	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	27	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	28	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	29	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	30	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	31	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	32	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	33	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	34	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	35	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	36	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	37	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	38	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	39	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	40	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	41	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	42	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	43	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	44	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	45	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	46	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	47	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	48	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	49	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	50	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	51	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	52	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	53	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	54	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	55	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	56	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	57	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	58	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	59	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	60	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	61	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	62	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	63	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	64	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	65	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	66	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	67	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	68	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	69	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	70	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	71	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	72	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	73	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	74	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	75	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	76	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	77	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	78	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	79	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	80	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	81	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	82	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	83	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	84	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	85	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	86	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	87	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	88	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	89	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	90	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	91	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	92	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	93	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	94	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	95	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	96	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	97	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	98	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	99	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	100	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	101	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	102	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	103	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	104	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	105	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	106	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	107	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	108	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	109	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	110	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	111	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	112	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	113	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	114	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	115	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	116	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	117	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	118	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	119	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	120	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	121	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	122	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	123	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	124	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	125	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	126	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	127	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	128	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	129	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	130	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	131	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	132	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	133	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	134	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	135	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	136	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	137	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	138	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	139	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	140	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	141	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	142	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	143	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	144	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	145	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	146	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	147	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	148	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	149	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	150	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	151	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	152	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	153	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	154	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	155	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	156	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	157	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	158	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	159	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	160	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	161	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	162	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	163	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	164	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	165	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	166	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	167	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	168	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	169	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	170	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	171	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	172	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	173	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	174	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	175	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None)
+DEBUG:puertasfunciones:Conecto Pyrebase
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): soatp-2dfc9.firebaseio.com
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	176	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	177	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	178	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	179	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	180	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	181	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	182	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	183	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	184	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	185	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	186	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	187	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	188	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	189	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	190	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	191	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	192	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	193	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	194	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	195	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	196	'''''''''''''''''''''
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	197	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	198	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	199	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	200	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	201	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	202	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	203	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	204	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	205	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	206	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	207	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	208	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	209	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	210	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	211	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	212	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	213	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	214	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	215	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	216	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	217	'''''''''''''''''''''
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	218	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	219	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	220	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	221	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	222	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	223	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	224	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	225	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	226	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	227	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	228	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	229	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	230	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	231	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	232	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	233	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	234	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	235	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	236	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	237	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	238	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	239	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	240	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	241	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	242	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	243	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	244	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	245	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	246	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	247	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	248	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	249	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	250	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	251	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	252	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	253	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	254	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	255	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	256	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	257	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	258	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	259	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	260	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	261	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	262	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	263	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	264	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	265	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	266	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	267	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	268	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	269	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	270	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	271	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	272	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	273	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	274	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	275	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	276	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	277	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	278	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	279	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	280	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	281	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	282	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	283	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	284	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	285	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	286	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	287	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	288	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	289	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	290	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	291	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	292	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	293	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	294	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	295	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	296	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	297	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	298	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	299	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	300	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	301	'''''''''''''''''''''
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: soatp-2dfc9.firebaseio.com
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	302	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	303	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	304	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	305	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	306	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	307	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	308	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	309	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	310	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	311	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	312	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	313	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	314	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	315	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	316	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	317	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	318	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	319	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	320	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	321	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	322	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	323	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	324	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	325	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	326	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	327	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	328	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	329	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	330	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	331	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	332	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	333	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	334	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	335	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	336	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	337	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	338	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	339	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	340	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	341	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	342	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	343	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	344	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	345	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	346	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	347	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	348	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	349	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	350	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	351	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	352	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	353	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	354	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	355	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	356	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	357	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	358	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	359	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	360	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	361	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	362	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	363	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	364	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	365	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	366	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	367	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	368	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	369	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	370	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	371	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	372	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	373	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	374	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	375	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	376	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	377	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	378	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	379	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	380	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	381	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	382	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	383	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	384	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	385	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	386	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	387	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	388	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	389	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	390	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	391	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	392	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	393	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	394	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	395	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	396	'''''''''''''''''''''
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	397	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	398	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	399	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	400	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	401	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	402	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	403	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	404	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	405	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	406	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	407	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	408	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	409	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	410	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	411	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	412	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	413	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	414	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: soatp-2dfc9.firebaseio.com
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	415	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	416	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	417	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	418	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	419	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	420	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	421	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	422	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	423	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	424	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	425	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	426	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	427	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	428	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	429	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	430	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	431	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	432	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	433	'''''''''''''''''''''
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	434	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	435	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Se comenzo a detectar algo
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	436	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	437	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	438	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	439	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	440	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	441	'''''''''''''''''''''
+DEBUG:puertasfunciones:Hay algo
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	442	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaLecAppEscRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	443	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	444	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	445	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaLecAppEscRas.json HTTP/1.1" 200 85
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	446	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Grabado en archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	447	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	448	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	449	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	450	'''''''''''''''''''''
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 05:26:21.186490 > 2017-11-27 05:26:21.183974(2017-11-27 05:26:19.683974 + 1.5)
+DEBUG:puertasfunciones:{i:450 Nro Segm 0: '1'}
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	451	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	452	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:APP : Led : on
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	453	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	454	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	455	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Segmento Actual: 1 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 05:26:22.892156 > 2017-11-27 05:26:22.686490(2017-11-27 05:26:21.186490 + 1.5)
+DEBUG:puertasfunciones:{i:455 Nro Segm 1: '0'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	456	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	457	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	458	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	459	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	460	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Segmento Actual: 2 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 05:26:24.399469 > 2017-11-27 05:26:24.392156(2017-11-27 05:26:22.892156 + 1.5)
+DEBUG:puertasfunciones:{i:460 Nro Segm 2: '0'}
+DEBUG:puertasfunciones:Comprobando... PASSWORD:101 INGRESADO:100
+DEBUG:puertasfunciones:Compara 0: pass(1) ingr(1)
+DEBUG:puertasfunciones:Compara 1: pass(0) ingr(0)
+DEBUG:puertasfunciones:Compara 2: pass(1) ingr(0)
+WARNING:puertasfunciones:Secuencia incorrecta!!! alerta policia
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	461	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	462	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	463	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	464	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	465	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	466	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	467	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	468	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	469	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	470	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	471	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	472	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	473	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	474	'''''''''''''''''''''
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 05:26:25.991039 > 2017-11-27 05:26:25.899469(2017-11-27 05:26:24.399469 + 1.5)
+DEBUG:puertasfunciones:{i:474 Nro Segm 0: '1'}
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	475	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	476	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	477	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	478	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	479	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Segmento Actual: 1 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 05:26:27.643693 > 2017-11-27 05:26:27.491039(2017-11-27 05:26:25.991039 + 1.5)
+DEBUG:puertasfunciones:{i:479 Nro Segm 1: '1'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	480	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	481	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	482	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	483	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	484	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Segmento Actual: 2 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 05:26:29.150901 > 2017-11-27 05:26:29.143693(2017-11-27 05:26:27.643693 + 1.5)
+DEBUG:puertasfunciones:{i:484 Nro Segm 2: '0'}
+DEBUG:puertasfunciones:Comprobando... PASSWORD:101 INGRESADO:110
+DEBUG:puertasfunciones:Compara 0: pass(1) ingr(1)
+DEBUG:puertasfunciones:Compara 1: pass(0) ingr(1)
+WARNING:puertasfunciones:Secuencia incorrecta!!! alerta policia
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	485	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	486	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	487	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	488	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	489	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	490	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	491	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	492	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	493	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	494	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	495	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	496	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	497	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	498	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	499	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	500	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	501	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	502	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	503	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	504	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	505	'''''''''''''''''''''
+DEBUG:puertasfunciones:Segmento Actual: 0 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 05:26:32.200377 > 2017-11-27 05:26:32.162722(2017-11-27 05:26:30.662722 + 1.5)
+DEBUG:puertasfunciones:{i:505 Nro Segm 0: '1'}
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	506	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	507	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	508	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	509	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	510	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Segmento Actual: 1 - Golpe: 0 => escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 05:26:33.903690 > 2017-11-27 05:26:33.700377(2017-11-27 05:26:32.200377 + 1.5)
+DEBUG:puertasfunciones:{i:510 Nro Segm 1: '0'}
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	511	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	512	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	513	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	514	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	515	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	516	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	517	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	518	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	519	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	520	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	521	'''''''''''''''''''''
+DEBUG:puertasfunciones:Segmento Actual: 2 - Golpe: 1 => NO escuchando en siguientes iteraciones
+DEBUG:puertasfunciones:DESBLOQUEANDO : 2017-11-27 05:26:35.404031 > 2017-11-27 05:26:35.403690(2017-11-27 05:26:33.903690 + 1.5)
+DEBUG:puertasfunciones:{i:521 Nro Segm 2: '1'}
+DEBUG:puertasfunciones:Comprobando... PASSWORD:101 INGRESADO:101
+DEBUG:puertasfunciones:Compara 0: pass(1) ingr(1)
+DEBUG:puertasfunciones:Compara 1: pass(0) ingr(0)
+DEBUG:puertasfunciones:Compara 2: pass(1) ingr(1)
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+INFO:puertasfunciones:Puerta desbloqueada, puede ingresar
+DEBUG:puertasfunciones:Enviada orden a Arduino
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	522	'''''''''''''''''''''
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	523	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	524	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaLecAppEscRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	525	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	526	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Grabado en archivo: archHaciaRaspi
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: soatp-2dfc9.firebaseio.com
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	527	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	528	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:APP : Puerta : 1
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	529	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	530	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	531	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	532	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	533	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	534	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	535	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	536	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	537	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	538	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	539	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	540	'''''''''''''''''''''
+DEBUG:puertasfunciones:Detectada No presencia
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	541	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 85
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	542	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaLecAppEscRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	543	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	544	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	545	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	546	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	547	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	548	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	549	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	550	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	551	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	552	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	553	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	554	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	555	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	556	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	557	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	558	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	559	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	560	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	561	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaLecAppEscRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	562	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	563	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Grabado en archivo: archHaciaRaspi
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	564	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:APP : Puerta : 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	565	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	566	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 86
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	567	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	568	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaLecAppEscRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	569	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"PATCH /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	570	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Grabado en archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	571	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:APP : Led : off
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	572	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	573	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	574	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	575	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	576	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	577	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	578	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	579	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	580	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	581	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	582	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	583	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	584	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	585	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	586	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	587	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	588	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	589	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	590	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	591	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	592	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	593	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	594	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	595	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	596	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	597	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	598	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	599	'''''''''''''''''''''
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	600	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	601	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	602	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	603	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	604	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	605	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	606	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	607	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	608	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	609	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	610	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	611	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	612	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	613	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	614	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	615	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	616	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	617	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	618	'''''''''''''''''''''
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	619	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:requests.packages.urllib3.connectionpool:"GET /baseDatosSoa/PuertaEscAppLecRas.json HTTP/1.1" 200 87
+DEBUG:puertasfunciones:Archivo no Grabado: archHaciaRaspi
+WARNING:puertasfunciones:Programa detenido
+INFO:puertasfunciones:Ha Presionado Ctrl+C, saliendo
+INFO:puertasfunciones:...............
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	620	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	621	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	622	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	623	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	624	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	625	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	626	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	627	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	628	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	629	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	630	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	631	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	632	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	633	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	634	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	635	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	636	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	637	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	638	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	639	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	640	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	641	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	642	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	643	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	644	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	645	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	646	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	647	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	648	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	649	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	650	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	651	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	652	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	653	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	654	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	655	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	656	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	657	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	658	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	659	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	660	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	661	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	662	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	663	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:FORZADO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	664	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	665	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	666	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	667	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	668	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	669	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	670	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	671	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	672	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	673	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	674	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	675	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	676	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	677	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	678	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	679	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	680	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	681	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	682	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	683	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	684	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	685	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	686	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	687	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	688	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	689	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	690	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	691	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	692	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	693	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	694	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	695	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	696	'''''''''''''''''''''
+DEBUG:puertasfunciones:Leido en Archivo: archHaciaRaspi
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	697	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	698	'''''''''''''''''''''
+DEBUG:puertasfunciones:Arduino:ESTACIONARIO
+
+DEBUG:puertasfunciones:''''''''''''''''''''''''''	699	'''''''''''''''''''''
+WARNING:puertasfunciones:Programa detenido
+INFO:puertasfunciones:Ha Presionado Ctrl+C, saliendo
+DEBUG:puertasfunciones:FIN:1511749630.75
